@@ -1,5 +1,3 @@
- 
-# This is a basic workflow to help you get started with Actions
 name: Automatically merge Crowdin pull requests
 
 # Controls when the action will run. Triggers the workflow on push or pull request
@@ -18,14 +16,13 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - name: Checkout
-      uses: actions/checkout@v1
+      uses: actions/checkout@v4
           
-    - name: Automatically Merge Pull Request
-      uses: sudo-bot/action-pull-request-merge@v1.1.0
-      if: ${{ github.event.pull_request.user.login == 'TicketsBot-Locale' }}
-      with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          number: ${{ github.event.pull_request.number }}
-          allowed-usernames-regex: ^TicketsBot-Locale$
-          merge-method: squash
-          merge-title: "🤖 Automatically merge translations from Crowdin 🌎"
+    - name: automerge
+      uses: "pascalgn/automerge-action@v0.16.4"
+      env:
+        GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+        MERGE_LABELS: ""
+        MERGE_METHOD: "squash"
+        MERGE_COMMIT_MESSAGE: "🤖 Updated CrowdIn Translations 🌍"
+        MERGE_FILTER_AUTHOR: "BenHall-1"
