@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets er en enkel og høyt konfigurabel ticket bot.\\nSupport server: https://discord.gg/VtV3rSk\\nKommandoer: Skriv `t!help`\\nKom i gang ved å bruke `t!setup`",
+	"commands.about": "Tickets er en enkel og høyt konfigurabel ticket bot.\\nSupport server: https://discord.gg/ticketsbot\\nKommandoer: Skriv `t!help`\\nKom i gang ved å bruke `t!setup`",
 	"commands.add.no_members": "Du må oppgi medlemmer du vil ha lagt til støtteforespurselen",
 	"commands.add.no_permission": "Du har ikke adgang til å legge til brukere til denne støtteforespurselen",
 	"commands.addadmin.no_members": "Du må oppgi en bruker eller rolle å gi administratorprivilegier til",
@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Du må oppgi en bruker å endre svartelistestatusen til",
 	"commands.blacklist.self": "Du kan ikke svarteliste deg selv",
 	"commands.claim.success": "Din ticket vill bli behandlet av %s",
-	"commands.invite": "[Klikk her](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[Klikk her](<https://invite.ticketsbot.cloud>)",
 	"commands.language.invalid": "Du må oppgi en språkkode eller et flagg. Tilgjengelige språk:\\n%s",
 	"commands.open.ticket_limit": "Du kan bare åpne %d %s om gangen",
 	"commands.open.too_many_tickets": "Det er for mange støtteforespurseler i støttekategorien. Spør en administrator om å lukke noen eller flytte dem til en annen kategori",
 	"commands.panel": "",
-	"commands.premium": "Du kan kjøpe premiumsabonnement fra <https://www.patreon.com/ticketsbot>.\\nPremium gir mange fordeler, som:\\n```diff\\n+ Lage ubegrensede støtteforespurselspaneler\\n+ Endre robot navn, avatar og status (ser som din egen)\\n+ Detaljert statistikk om sørveren, brukere og stabmedlemmer\\n+ Ingen reklame på slutten av meldinger\\n+ Støtte utviklinga og hjelpe meg med å betale regingene\\n```\\n\\nOm dette ikke passer, kan du stemme for roboten på <https://vote.ticketsbot.net> for å få premium gratis for ett døgn",
+	"commands.premium": "Du kan kjøpe premiumsabonnement fra <https://www.patreon.com/ticketsbot>.\\nPremium gir mange fordeler, som:\\n```diff\\n+ Lage ubegrensede støtteforespurselspaneler\\n+ Endre robot navn, avatar og status (ser som din egen)\\n+ Detaljert statistikk om sørveren, brukere og stabmedlemmer\\n+ Ingen reklame på slutten av meldinger\\n+ Støtte utviklinga og hjelpe meg med å betale regingene\\n```\\n\\nOm dette ikke passer, kan du stemme for roboten på <https://vote.ticketsbot.cloud> for å få premium gratis for ett døgn",
 	"commands.premium.invalid_key": "Ugyldig nøkkel. Pass på at du kopierte nøkkelen ordentlig",
 	"commands.remove.no_permission": "Du har ikke lov til å fjerne folk fra denne støtteforespurselen",
 	"commands.remove.staff": "Du kan ikke fjerne stabmedlemmer fra en støtteforespursen",
@@ -28,13 +28,13 @@
 	"commands.tags.create.too_long": "Knaggider kan ikke være lengre enn seksten tegn",
 	"commands.tags.delete.invalid_arguments": "Du må oppgi knaggiden du vil slette",
 	"commands.tags.delete.not_exist": "En knagg med iden `%s` ble ikke gjenkjent",
-	"commands.tags.get.invalid_arguments": "Du må oppgi iden til en knagg. For mer hjelp med knagget, gå til <https://ticketsbot.net/tags>.",
-	"commands.tags.get.invalid_tag": "Ugyldig knagg. For mer hjelp med knagger, gå til <https://ticketsbot.net/tags>.",
+	"commands.tags.get.invalid_arguments": "Du må oppgi iden til en knagg. For mer hjelp med knagget, gå til <https://ticketsbot.cloud/tags>.",
+	"commands.tags.get.invalid_tag": "Ugyldig knagg. For mer hjelp med knagger, gå til <https://ticketsbot.cloud/tags>.",
 	"commands.tags.list": "Alle nåværende knaggider: \\n%s\\nFor å vise innholdet til en knagg, si `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Denne støtteforespurselen er ikke opptatt",
 	"commands.unclaim.not_claimer": "Bare administratorer og brukeren som la krav på en støtteforespursel kan fjerne kravet på den",
 	"commands.unclaim.success": "Alle støttekontakter kan nå svare på støtteforespurselen",
-	"commands.vote": "Trykk her for å stemme for ett døgn med gratis premium:\\n<https://vote.ticketsbot.net>",
+	"commands.vote": "Trykk her for å stemme for ett døgn med gratis premium:\\n<https://vote.ticketsbot.cloud>",
 	"generic.invalid_argument": "Ugyldig inndata: se korrekt bruk",
 	"generic.invalid_user": "Kunne ikke finne den valgte brukeren",
 	"generic.no_permission": "Du har ikke adgang til dette",
@@ -87,7 +87,7 @@
 	"setup.ticket_limit.success": "Ticketgrensen har blitt oppdatert til `%d`",
 	"setup.transcript.invalid": "Du må nevne en gyldig kanal i serveren (f.eks <#%d>)\\n**Eksempel:** `/setup transcripts #logs`",
 	"setup.transcript.success": "Transkripsjons kanalen har blitt endret til <#%d>",
-	"commands.language.help_wanted": "Snakker du et annet språk? Bli med i vår [support server](https://discord.gg/bh6aAfP) hvis du er interessert i å hjelpe til å oversette boten til flere språk",
+	"commands.language.help_wanted": "Snakker du et annet språk? Bli med i vår [support server](https://discord.gg/ticketsbot) hvis du er interessert i å hjelpe til å oversette boten til flere språk",
 	"commands.rename.too_long": "Kanal navn kan ikke være lengre enn 100 tegn",
 	"commands.autoclose.configure": "",
 	"help.autoclose": "Autoclose relaterte kommandoer",
@@ -323,7 +323,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Vil du utforske mer? Vår [dokumentasjon](https://docs.ticketsbot.net) lærer deg hvordan du konfigurerer alle aspekter av botten!"
+			"docs": "Vil du utforske mer? Vår [dokumentasjon](https://docs.ticketsbot.cloud) lærer deg hvordan du konfigurerer alle aspekter av botten!"
 		},
 		"threads": {
 			"no_notification_channel": "",
