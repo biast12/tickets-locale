@@ -170,8 +170,8 @@
 		"success": "Ця заявка була закрита <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "",
-				"empty": ""
+				"staff": "You cannot rate this ticket because you are a support representative in %s",
+				"empty": "Ви не можете надати оцінку цьому тікету, бо ви не надіслали жодного повідомлення"
 			}
 		}
 	},
@@ -180,7 +180,7 @@
 			"disabled": "Команду `/open` відключено на цьому сервері. Будь ласка, використуйте панель заяки, щоб відкрити заявку",
 			"threads": {
 				"cant_see_parent_channel": "Не вдалося додати <@%d> до цієї заявки: Переконайтеся, що вони мають дозвіл на перегляд початкового каналу гілки. (<#%d>)",
-				"cant_message_in_threads": ""
+				"cant_message_in_threads": "У вас відсутнє право \"Надсилати повідомлення у гілки\", яке є необхідним для відкриття гілки. Зв'яжіться з адміністратором сервера, аби вам надалі наведені права та спробуйте знов."
 			}
 		},
 		"switch_panel": {
@@ -213,7 +213,7 @@
 				"limit": "Ви досягли ліміту міток (%d)"
 			},
 			"get": {
-				"requires_premium": ""
+				"requires_premium": "Для використування користувацьких команд потрібен преміум статус (псевдоніми)"
 			}
 		},
 		"language": {
@@ -261,17 +261,17 @@
 					"description": "Виберіть цю опцію якщо ви зробили покупку на Patreon"
 				},
 				"discord": {
-					"description": ""
+					"description": "Оберіть це, якщо ви провели оплату у додатку Discord"
 				}
 			},
 			"about": "Premium дає вам доступ до розширенних налаштувань, статистик, властного бота та більше! Відвідайте наш [website](https://ticketsbot.cloud/premium) щоб дізнатися більше.",
 			"already_activated": "Гарні новини! Premium вже активний на цьому сервері.",
 			"already_activated_whitelabel": "Гарні новини! Premium вже активований на цьому сервері.\n\nПеред налаштуванням whitelabel прочитайте [наш гайд про налаштування whitelabel](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": ""
+				"no_subscription": "Преміум тепер може бути придбаний через Discord. Натисніть на кнопку нижче, аби відкрити сторінку керування підписками.\n\nЯкщо ви придбали преміум, то зачекайте 5 хвилини поки ми активуємо вашу підписку."
 			},
-			"subscription_found_content_modern": "",
-			"open_server_selector": ""
+			"subscription_found_content_modern": "Ваша підписка Patreon була знайдена. Будь ласка, натисність на \"Обрати сервер\" нижче, аби відкрити контрольну панель та обрати той сервер, де ви хочете активувати свою преміум підписку.",
+			"open_server_selector": "Обрати сервер"
 		},
 		"notes": {
 			"added_to_existing": "Ви були додані до існуючої гілки нотаток: <#%d>",
@@ -279,20 +279,20 @@
 			"created": "Нотатки для теми були створення для цього тікету: <#%d>"
 		},
 		"rename": {
-			"ratelimited": ""
+			"ratelimited": "Через обмеження Discord, запити можуть бути перейменовані тільки два рази кожні 10 хвилин"
 		},
 		"vote": {
-			"redeem_credits": "",
-			"no_credits": "",
+			"redeem_credits": "Використати кредити",
+			"no_credits": "Помилка: У вас немає кредитів!",
 			"redeem": {
 				"success": {
-					"plural": "",
-					"singular": ""
+					"plural": "Ви активували свої кредити та отримали **%d** днів преміуму!",
+					"singular": "Ви активували свої кредити та отримали **%d** день преміуму!"
 				}
 			},
 			"with_credits": {
-				"plural": "",
-				"singular": ""
+				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
+				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
 			}
 		}
 	},
