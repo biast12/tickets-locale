@@ -277,7 +277,7 @@
 			"added_to_existing": "You have been added to the existing notes thread: <#%d>",
 			"thread_name": "notes",
 			"created": "A notes thread has been created for this ticket: <#%d>",
-			"channel_mode_only": "Note threads are only supported in channel mode",
+			"channel_mode_only": "Note threads are only supported in channel mode"
 		},
 		"rename": {
 			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
