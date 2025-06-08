@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Musíte zmínit uživatele pro zapnutí stavu černé listiny na",
 	"commands.blacklist.self": "Nemůžeš dát na černou listinu sám sebe",
 	"commands.claim.success": "Váš ticket bude řešit uživatel %s",
-	"commands.invite": "[Klikněte zde](<https://invite.ticketsbot.cloud>)",
+	"commands.invite": "[Klikněte zde](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "Musíte zadat kód jazyka nebo vlajku. Dostupné jazyky:\\n%s",
 	"commands.open.ticket_limit": "Jsi schopen otevřít pouze %d %s najednou",
 	"commands.open.too_many_tickets": "V kategorii ticketu je příliš mnoho ticketů. Požádejte admina, aby některé uzavřel nebo je přesunul do jiné kategorie",
-	"commands.panel": "Pro otevření konfiguračního palelu navšťivte <https://dashboard.ticketsbot.cloud/manage/%d/panels>",
-	"commands.premium": "Prémiové předplatné si můžete zakoupit od <https://www.patreon.com/ticketsbot-cloud>.\\nPremium poskytuje mnoho výhod, například:\\n```diff\\n+ Vytvořit neomezený počet ticketových panelů\\n+ Přizpůsobit název bota, avatar & status (whitelabel)\\n+ Podrobné statistiky o serveru, uživatelé a podporovatelný personál\\n+ Žádná značka v zápatí zpráv\\n+ Podpořte vývoj a pomozte mi uhradit náklady serveru\\n```\\n\\nmůžete hlasovat na <https://vote.ticketsbot.cloud> a získat prémiovou verzi zdarma na 24 hodin",
+	"commands.panel": "Pro otevření konfiguračního palelu navšťivte <https://dashboard.tickets.bot/manage/%d/panels>",
+	"commands.premium": "Prémiové předplatné si můžete zakoupit od <https://www.patreon.com/ticketsbot-cloud>.\\nPremium poskytuje mnoho výhod, například:\\n```diff\\n+ Vytvořit neomezený počet ticketových panelů\\n+ Přizpůsobit název bota, avatar & status (whitelabel)\\n+ Podrobné statistiky o serveru, uživatelé a podporovatelný personál\\n+ Žádná značka v zápatí zpráv\\n+ Podpořte vývoj a pomozte mi uhradit náklady serveru\\n```\\n\\nmůžete hlasovat na <https://vote.tickets.bot> a získat prémiovou verzi zdarma na 24 hodin",
 	"commands.premium.invalid_key": "Neplatný klíč. Ujistěte se, že jste jej zkopírovali správně.",
 	"commands.remove.no_permission": "Nemáte dostatečná oprávnění k odstranění lidí od tohohle ticketu",
 	"commands.remove.staff": "Nemůžete odstranit Staff z ticketu",
@@ -28,8 +28,8 @@
 	"commands.tags.create.too_long": "Id Tagu, nemůže být delší než 16 písmen",
 	"commands.tags.delete.invalid_arguments": "Pro smazání musíte zadat ID tagu",
 	"commands.tags.delete.not_exist": "Štítek s ID `%s` nebyl nalezen",
-	"commands.tags.get.invalid_arguments": "Musíte zadat ID štítku. Pro více nápovědy navštivte <https://ticketsbot.cloud/tags>.",
-	"commands.tags.get.invalid_tag": "Neplatný štítek. Pro více nápovědy se štítky navštivte <https://ticketsbot.cloud/tags>.",
+	"commands.tags.get.invalid_arguments": "Musíte zadat ID štítku. Pro více nápovědy navštivte <https://tickets.bot/tags>.",
+	"commands.tags.get.invalid_tag": "Neplatný štítek. Pro více nápovědy se štítky navštivte <https://tickets.bot/tags>.",
 	"commands.tags.list": "ID pro všechny tagy: \\n%s\\nPro zobrazení obsahu tagu spusťte `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Tento ticket není claimnut",
 	"commands.unclaim.not_claimer": "Pouze administrátoři a uživatel, který si vyžádal tiket, mohou zrušit claim tiketu",
@@ -76,10 +76,11 @@
 	"help.unclaim": "Odstraní claim na aktuálním ticketu",
 	"help.viewstaff": "Zobrazí seznam staff a rolí",
 	"help.vote": "Dá vám odkaz k hlasování pro prémium zdarma",
+	"help.check_perms": "Check if the Bot has the right Permissions",
 	"open.success": "Otevřel nový ticket: %s",
 	"setup.auto.category.failure": "Chybí mi oprávnění `Manage Channels`",
 	"setup.auto.category.success": "Vytvořená kategorie ticketů",
-	"setup.auto.completed": "Prvotní nastavení hotovo! Pro další konfiguraci navštivte [here](https://dashboard.ticketsbot.cloud/manage/%d/panels). Pro nastavení reakčních panelů a přidání <@&%d> a <@&%d> rolí do správců",
+	"setup.auto.completed": "Prvotní nastavení hotovo! Pro další konfiguraci navštivte [here](https://dashboard.tickets.bot/manage/%d/panels). Pro nastavení reakčních panelů a přidání <@&%d> a <@&%d> rolí do správců",
 	"setup.auto.roles.failure": "Chybí mi oprávnění `Manage Roles`",
 	"setup.auto.roles.success": "Vytvořena role `Ticket Admin` a `Podpora ticketů`",
 	"setup.auto.transcript.failure": "Chybí mi oprávnění `Manage Channels`",
@@ -89,7 +90,7 @@
 	"setup.transcript.success": "Přepsací kanál byl změněn na <#%d>",
 	"commands.language.help_wanted": "Mluvíš jiným jazykem? Připoj se k našemu [podporovatlnému serveru](https://discord.gg/ticketsbot), pokud chceš pomoci přeložit bota do více jazyků",
 	"commands.rename.too_long": "Název kanálu nesmí být delší než 100 znaků",
-	"commands.autoclose.configure": "Pro upravení nastavení automatického navštivte [Administračním panelu](https://dashboard.ticketsbot.cloud/manage/%d/settings)",
+	"commands.autoclose.configure": "Pro upravení nastavení automatického navštivte [Administračním panelu](https://dashboard.tickets.bot/manage/%d/settings)",
 	"help.autoclose": "Automatické ukládání souvisejících příkazů",
 	"help.autoclose.exclude": "Nezahrnuje aktuální ticket z automatického zavření",
 	"help.autoclose.configure": "Upravit nastavení související s automatickým uzavřením",
@@ -107,7 +108,7 @@
 	"button.dms_only": "Toto tlačítko musí být použito v přímých zprávách",
 	"commands.tag.generic": "Štítek",
 	"commands.tags.delete.success": "Štítek `%s` byl odstraněn",
-	"generic.ticket": "Lístek",
+	"generic.ticket": "Ticket",
 	"generic.title.premium_only": "Pouze Prémiový příkaz",
 	"generic.admin": "Administrátor",
 	"commands.tags.create.success": "Tag vytvořen - můžete jej použít spuštěním `/tag %s`",
@@ -164,8 +165,8 @@
 		"success": "Ticket byl uzavřen uživatelem <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "Tento lístek nemůžete hodnotit, protože jste zástupcem podpory ve skupině %s",
-				"empty": "Tento lístek nelze hodnotit, protože jste neodeslali žádné zprávy"
+				"staff": "Tento ticket nemůžete hodnotit, protože jste zástupcem podpory ve skupině %s",
+				"empty": "Tento ticket nelze hodnotit, protože jste neodeslali žádné zprávy"
 			}
 		}
 	},
@@ -174,7 +175,7 @@
 			"disabled": "Příkaz \"/open\" je na tomto serveru vypnutý, vytvoř si ticket pomocí ticket panelu.",
 			"threads": {
 				"cant_see_parent_channel": "Nelze přidat <@%d> k tiketu: ujistěte se, že mají oprávnění k zobrazení nadřazeného kanálu (<#%d>)",
-				"cant_message_in_threads": "Chybí vám oprávnění `Odesílat zprávy ve vláknech`, které je nutné pro otevření lístku. Požádejte prosím správce serveru, aby vám toto oprávnění přidělil, a zkuste to znovu."
+				"cant_message_in_threads": "Chybí vám oprávnění `Odesílat zprávy ve vláknech`, které je nutné pro otevření ticketu. Požádejte prosím správce serveru, aby vám toto oprávnění přidělil, a zkuste to znovu."
 			}
 		},
 		"switch_panel": {
@@ -216,7 +217,7 @@
 			"select": "Vyberte jazyk (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` může být použito pouze v režimu vlákna. Navštivte naši [docs](https://docs.ticketsbot.cloud/features/thread-mode) pro více informací o vláknech",
+			"channel_mode": "`/on-call` může být použito pouze v režimu vlákna. Navštivte naši [docs](https://docs.tickets.bot/features/thread-mode) pro více informací o vláknech",
 			"success": "Nyní jste v hovoru",
 			"remove_success": "Již nejste v hovoru"
 		},
@@ -258,9 +259,9 @@
 					"description": "Tuto možnost vyberte, pokud jste nákup provedli v obchodě v aplikaci Discord"
 				}
 			},
-			"about": "Premium vám umožní přístup k více panelům, statistikám, vlastnímu botovi a dalšímu! Navštivte naši [website](https://ticketsbot.cloud/premium), abyste se dozvěděli více.",
+			"about": "Premium vám umožní přístup k více panelům, statistikám, vlastnímu botovi a dalšímu! Navštivte naši [website](https://tickets.bot/premium), abyste se dozvěděli více.",
 			"already_activated": "Super! Premium je na tomto serveru už aktivováno.",
-			"already_activated_whitelabel": "Super! Premium je na tomto serveru už aktivováno.\n\nPokud potřebujete další pomoc při nastavení whitelabelů, přečtěte si naší [dokumentaci o whitelabelech](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Super! Premium je na tomto serveru už aktivováno.\n\nPokud potřebujete další pomoc při nastavení whitelabelů, přečtěte si naší [dokumentaci o whitelabelech](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "Prémium lze zakoupit přímo v rámci služby Discord. Kliknutím na tlačítko pod touto zprávou otevřete stránku pro správu předplatného.\n\nPo zakoupení vyčkejte až 5 minut, než bude předplatné detekováno."
 			},
@@ -296,6 +297,30 @@
 			"buttons": {
 				"accept": "Přijmout a zavřít",
 				"deny": "Zakázat a zachovat otevřené"
+			}
+		},
+		"permissions": {
+			"title": "Permissions Check",
+			"has_admin": "✅ <@%d> has the Administrator permission",
+			"has_all": "✅ <@%d> has all the required permissions",
+			"missing": "❌ Missing Permissions",
+			"decreption": {
+				"read_messages": "Allows the bot to view the content of a channel.",
+				"send_messages": "Allows the bot to send messages in channels.",
+				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",
+				"attach_files": "Allows the bot to assign the attach files permission to the ticket opener.",
+				"add_reactions": "Allows the bot to add the buttons to ticket panels, welcome messages, and all commands that use buttons.",
+				"use_external_emojis": "Allows the bot to use non-server emojis in ticket panels, welcome messages, and tags. Bot must still be in the other server to use them.",
+				"mention_everyone": "Allows the bot to mention everyone, here and all roles in a ticket.",
+				"read_message_history": "Allows the bot to read all messages in a channel.",
+				"manage_channels": "Allows the bot to create, rename, recategorize, and delete channels.",
+				"manage_roles": "Allows the bot to create and edit roles; give and take away roles from users; and adjust a channel's role permissions.",
+				"manage_webhooks": "Allows the bot to create webhooks for transcripts, and for staff to use the dashboard to send messages or tags in open tickets.",
+				"manage_threads": "Allows the bot to create, rename, close, and delete threads.",
+				"send_messages_in_threads": "Allows the bot to send messages in threads.",
+				"create_public_threads": "Allows the bot to create public threads.",
+				"create_private_threads": "Allows the bot to create private threads, such as thread mode tickets and the /notes command for channel tickets.",
+				"use_application_commands": "Allows the bot's slash commands to work."
 			}
 		}
 	},

@@ -8,11 +8,11 @@
 	"commands.blacklist.no_members": "ब्लैकलिस्ट स्थिति को चालू करने के लिए आपको एक उपयोगकर्ता का उल्लेख करना होगा",
 	"commands.blacklist.self": "आप खुद को ब्लैकलिस्ट नहीं कर सकते",
 	"commands.claim.success": "आपका टिकट %s द्वारा नियंत्रित किया जाएगा",
-	"commands.invite": "[यहां क्लिक करें](<https://invite.ticketsbot.cloud>)",
+	"commands.invite": "[यहां क्लिक करें](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "आपको एक भाषा कोड या ध्वज निर्दिष्ट करने की आवश्यकता है। उपलब्ध भाषाएँ:\\n%s",
 	"commands.open.ticket_limit": "आप एक बार में केवल %d %s खोल सकते हैं",
 	"commands.open.too_many_tickets": "टिकट श्रेणी में बहुत अधिक टिकट हैं। किसी व्यवस्थापक से कुछ को बंद करने, या उन्हें किसी अन्य श्रेणी में ले जाने के लिए कहें",
-	"commands.panel": "Visit <https://dashboard.ticketsbot.cloud/manage/%d/panels> to configure a panel",
+	"commands.panel": "Visit <https://dashboard.tickets.bot/manage/%d/panels> to configure a panel",
 	"commands.premium": "आप <https://www.patreon.com/ticketsbot-cloud> से एक प्रीमियम सदस्यता खरीद सकते हैं।\\nप्रीमियम कई लाभ प्रदान करता है, जैसे:\\n``diff\\n+ असीमित टिकट पैनल बनाएं\\n+ बॉट नाम, अवतार और अनुकूलित करें स्थिति (श्वेत लेबल)\\n+ सर्वर, उपयोगकर्ताओं और सहायक कर्मचारियों के बारे में विस्तृत आंकड़े\\n+ संदेशों के पाद लेख में कोई ब्रांडिंग नहीं\\n+ विकास का समर्थन करें और सर्वर लागतों का भुगतान करने में मेरी सहायता करें\\n```\\n\\nवैकल्पिक रूप से, आप यहां वोट कर सकते हैं 24 घंटे के लिए प्रीमियम मुफ्त पाने के लिए <https://vote.ticketbot.net>",
 	"commands.premium.invalid_key": "अमान्य चाबी। सुनिश्चित करें कि आपने इसे सही तरीके से कॉपी किया है।",
 	"commands.remove.no_permission": "आपको इस टिकट में लोगों को जोड़ने की अनुमति नहीं है",
@@ -28,8 +28,8 @@
 	"commands.tags.create.too_long": "टैग आईडी 16 वर्णों से अधिक लंबी नहीं हो सकती",
 	"commands.tags.delete.invalid_arguments": "हटाने के लिए आपको एक टैग आईडी निर्दिष्ट करनी होगी",
 	"commands.tags.delete.not_exist": "आईडी `%s` वाला टैग नहीं मिला",
-	"commands.tags.get.invalid_arguments": "आपको टैग की आईडी प्रदान करनी होगी। टैग के बारे में अधिक सहायता के लिए, <https://ticketsbot.cloud/tags> पर जाएं।",
-	"commands.tags.get.invalid_tag": "अमान्य टैग। टैग के बारे में अधिक सहायता के लिए, <https://ticketsbot.cloud/tags> पर जाएं।",
+	"commands.tags.get.invalid_arguments": "आपको टैग की आईडी प्रदान करनी होगी। टैग के बारे में अधिक सहायता के लिए, <https://tickets.bot/tags> पर जाएं।",
+	"commands.tags.get.invalid_tag": "अमान्य टैग। टैग के बारे में अधिक सहायता के लिए, <https://tickets.bot/tags> पर जाएं।",
 	"commands.tags.list": "सभी टैग के लिए आईडी: \\n%s\\nटैग की सामग्री देखने के लिए, `%stag <ID>` चलाएं",
 	"commands.unclaim.not_claimed": "इस टिकट का दावा नहीं किया गया है",
 	"commands.unclaim.not_claimer": "टिकट का दावा करने वाले केवल व्यवस्थापक और उपयोगकर्ता टिकट का दावा नहीं कर सकते हैं",
@@ -76,10 +76,11 @@
 	"help.unclaim": "Removes the claim on the current ticket",
 	"help.viewstaff": "Lists the staff members and roles",
 	"help.vote": "Gives you a link to vote for free premium",
+	"help.check_perms": "Check if the Bot has the right Permissions",
 	"open.success": "Opened a new ticket: %s",
 	"setup.auto.category.failure": "I am missing the `Manage Channels` permission",
 	"setup.auto.category.success": "Created Tickets category",
-	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.ticketsbot.cloud/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
+	"setup.auto.completed": "Setup complete! Click [here](https://dashboard.tickets.bot/manage/%d/panels) to setup a reaction panel, and add the <@&%d> and <@&%d> roles to your staff members",
 	"setup.auto.roles.failure": "I am missing the `Manage Roles` permission",
 	"setup.auto.roles.success": "Created `Tickets Admin` & `Tickets Support` roles",
 	"setup.auto.transcript.failure": "I am missing the `Manage Channels` permission",
@@ -89,7 +90,7 @@
 	"setup.transcript.success": "The transcripts channel has been changed to <#%d>",
 	"commands.language.help_wanted": "Do you speak another language? Join our [support server](https://discord.gg/ticketsbot) if you're interested in helping translating the bot into more languages",
 	"commands.rename.too_long": "Channel names cannot be longer than 100 characters",
-	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.ticketsbot.cloud/manage/%d/settings) to change autoclose settings",
+	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.tickets.bot/manage/%d/settings) to change autoclose settings",
 	"help.autoclose": "Autoclose related commands",
 	"help.autoclose.exclude": "Excludes the current ticket from being automatically closed",
 	"help.autoclose.configure": "Edit autoclose related settings",
@@ -216,7 +217,7 @@
 			"select": "Select a language (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.ticketsbot.cloud/features/thread-mode) to find out more about threads",
+			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.tickets.bot/features/thread-mode) to find out more about threads",
 			"success": "You are now on call",
 			"remove_success": "You are no longer on call"
 		},
@@ -258,9 +259,9 @@
 					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
-			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://ticketsbot.cloud/premium) to find out more.",
+			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://tickets.bot/premium) to find out more.",
 			"already_activated": "Good news! Premium is already active in this server.",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.tickets.bot/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
@@ -297,6 +298,30 @@
 				"accept": "Accept & Close",
 				"deny": "Deny & Keep Open"
 			}
+		},
+		"permissions": {
+			"title": "Permissions Check",
+			"has_admin": "✅ <@%d> has the Administrator permission",
+			"has_all": "✅ <@%d> has all the required permissions",
+			"missing": "❌ Missing Permissions",
+			"decreption": {
+				"read_messages": "Allows the bot to view the content of a channel.",
+				"send_messages": "Allows the bot to send messages in channels.",
+				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",
+				"attach_files": "Allows the bot to assign the attach files permission to the ticket opener.",
+				"add_reactions": "Allows the bot to add the buttons to ticket panels, welcome messages, and all commands that use buttons.",
+				"use_external_emojis": "Allows the bot to use non-server emojis in ticket panels, welcome messages, and tags. Bot must still be in the other server to use them.",
+				"mention_everyone": "Allows the bot to mention everyone, here and all roles in a ticket.",
+				"read_message_history": "Allows the bot to read all messages in a channel.",
+				"manage_channels": "Allows the bot to create, rename, recategorize, and delete channels.",
+				"manage_roles": "Allows the bot to create and edit roles; give and take away roles from users; and adjust a channel's role permissions.",
+				"manage_webhooks": "Allows the bot to create webhooks for transcripts, and for staff to use the dashboard to send messages or tags in open tickets.",
+				"manage_threads": "Allows the bot to create, rename, close, and delete threads.",
+				"send_messages_in_threads": "Allows the bot to send messages in threads.",
+				"create_public_threads": "Allows the bot to create public threads.",
+				"create_private_threads": "Allows the bot to create private threads, such as thread mode tickets and the /notes command for channel tickets.",
+				"use_application_commands": "Allows the bot's slash commands to work."
+			}
 		}
 	},
 	"generic": {
@@ -326,7 +351,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Want to explore more? Our [documentation](https://docs.ticketsbot.cloud) will teach you how to configure every aspect of the bot!"
+			"docs": "Want to explore more? Our [documentation](https://docs.tickets.bot) will teach you how to configure every aspect of the bot!"
 		},
 		"threads": {
 			"no_notification_channel": "You must provide a ticket notification channel",

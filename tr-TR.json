@@ -8,12 +8,12 @@
 	"commands.blacklist.no_members": "Kullanıcının kara liste durumunu değiştirmek için kullanıcıyı etiketlemeniz gerekir.",
 	"commands.blacklist.self": "Kendinizi kara listeye alamazsınız.",
 	"commands.claim.success": "Talebin ile yetkili %s ilgilenecek.",
-	"commands.invite": "Botu davet etmek için [tıklayın.](<https://invite.ticketsbot.cloud>)",
+	"commands.invite": "Botu davet etmek için [tıklayın.](<https://invite.tickets.bot>)",
 	"commands.language.invalid": "Bir dil kodu veya bayrak belirtmeniz gerekir. Mevcut diller:\n%s",
 	"commands.open.ticket_limit": "Aynı anda yalnızca %d %s talep açabilirsiniz.",
 	"commands.open.too_many_tickets": "Talep kategorisinde çok fazla talep var. Bir yöneticiden bazılarını kapatmasını veya başka bir yere taşımasını isteyin.",
-	"commands.panel": "Bir paneli yapılandırmak için <https://panel.ticketsbot.cloud/manage/%d/panels> bağlantısını ziyaret edin.",
-	"commands.premium": "<https://www.patreon.com/ticketsbot-cloud> bağlantısından premium abonelik satın alabilirsiniz.\nPremium abonelik şu özellikler gibi bir çok özellik sağlar:\n```diff\n+ Sınırsız talep paneli oluşturun.\n+ Botun ismini, avatarını ve durumunu kişiselleştirin (whitelabel)\n+ Sunucu, kullanıcılar ve yetkililer hakkında detaylı istatistikler\n+ Mesajların altında bot bilgisi bulunmaz\n+ Botun gelişimini destekleyin ve sunucu masraflarına katkı sağlayın\n```\n\nAlternatif olarak, <https://vote.ticketsbot.cloud> bağlantısından oy kullanarak 1 günlük ücretsiz premium ayrıcalıklarına sahip olabilirsin.",
+	"commands.panel": "Bir paneli yapılandırmak için <https://panel.tickets.bot/manage/%d/panels> bağlantısını ziyaret edin.",
+	"commands.premium": "<https://www.patreon.com/ticketsbot-cloud> bağlantısından premium abonelik satın alabilirsiniz.\nPremium abonelik şu özellikler gibi bir çok özellik sağlar:\n```diff\n+ Sınırsız talep paneli oluşturun.\n+ Botun ismini, avatarını ve durumunu kişiselleştirin (whitelabel)\n+ Sunucu, kullanıcılar ve yetkililer hakkında detaylı istatistikler\n+ Mesajların altında bot bilgisi bulunmaz\n+ Botun gelişimini destekleyin ve sunucu masraflarına katkı sağlayın\n```\n\nAlternatif olarak, <https://vote.tickets.bot> bağlantısından oy kullanarak 1 günlük ücretsiz premium ayrıcalıklarına sahip olabilirsin.",
 	"commands.premium.invalid_key": "Geçersiz anahtar. Doğru bir şekilde kopyaladığınızdan emin olun.",
 	"commands.remove.no_permission": "Talepten kullanıcı çıkarmak için izniniz yok.",
 	"commands.remove.staff": "Talepten yetkilileri çıkaramazsın!",
@@ -28,8 +28,8 @@
 	"commands.tags.create.too_long": "Etiket ID'si, 16 karakterden uzun olamaz.",
 	"commands.tags.delete.invalid_arguments": "Silme eylemini yapabilmek için bir ID belirtmelisiniz.",
 	"commands.tags.delete.not_exist": "`%s` ID'sine sahip bir etiket bulunamıyor.",
-	"commands.tags.get.invalid_arguments": "Etiket ID'sini belirtmeniz gerekiyor. Etiketler ile alakalı daha fazla bilgi için;\n <https://ticketsbot.cloud/tags> bağlantısını ziyaret edin.",
-	"commands.tags.get.invalid_tag": "Bilinmeyen etiket. Etiketler ile alakalı daha fazla bilgi için;\n <https://ticketsbot.cloud/tags> bağlantısını ziyaret edin.",
+	"commands.tags.get.invalid_arguments": "Etiket ID'sini belirtmeniz gerekiyor. Etiketler ile alakalı daha fazla bilgi için;\n <https://tickets.bot/tags> bağlantısını ziyaret edin.",
+	"commands.tags.get.invalid_tag": "Bilinmeyen etiket. Etiketler ile alakalı daha fazla bilgi için;\n <https://tickets.bot/tags> bağlantısını ziyaret edin.",
 	"commands.tags.list": "Mevcut olan tüm etiketlerin ID'leri: \n%s\nEtiketin içeriğini görüntülemek için, `%stag <ID>` komutunu kullanın.",
 	"commands.unclaim.not_claimed": "Bu talep zaten sahiplenilmemiş.",
 	"commands.unclaim.not_claimer": "Yalnızca yöneticiler ve sahiplenen kullanıcı sahiplenmeyi iptal edebilir.",
@@ -76,10 +76,11 @@
 	"help.unclaim": "Talebin devredilmesini kaldırır",
 	"help.viewstaff": "Yetkilendirilmiş kullanıcı ve rolleri listeler",
 	"help.vote": "Ücretsiz premium üyelik için oy bağlantısı",
+	"help.check_perms": "Check if the Bot has the right Permissions",
 	"open.success": "Talebin oluşturuldu: %s",
 	"setup.auto.category.failure": "Kanalları yönet iznine sahip değil",
 	"setup.auto.category.success": "Destek kategorisi oluşturuldu",
-	"setup.auto.completed": "Kurulum tamamlandı! Bir reaksiyon paneli kurmak için [buraya] (https://dashboard.ticketsbot.cloud/manage/%d/panels) tıklayın ve personel üyelerinize <@&%d> ve <@&%d> rollerini ekleyin",
+	"setup.auto.completed": "Kurulum tamamlandı! Bir reaksiyon paneli kurmak için [buraya] (https://dashboard.tickets.bot/manage/%d/panels) tıklayın ve personel üyelerinize <@&%d> ve <@&%d> rollerini ekleyin",
 	"setup.auto.roles.failure": "Rolleri yönet iznine sahip değil",
 	"setup.auto.roles.success": "Bilet yöneticisi ve bilet destek rolleri oluşturuldu",
 	"setup.auto.transcript.failure": "Kanalları yönet yetkisine sahip değil",
@@ -89,7 +90,7 @@
 	"setup.transcript.success": "Transkript kanalı <#%d> olarak güncellendi",
 	"commands.language.help_wanted": "Başka bir dil biliyor musun? Botun daha fazla dile çevrilmesine yardımcı olmakla ilgileniyorsanız [destek sunucumuza](https://discord.gg/ticketsbot) katılın",
 	"commands.rename.too_long": "Kanal isimleri 100 karakterden uzun olamaz",
-	"commands.autoclose.configure": "Otomatik kapatma ayarlarını değiştirmek için [gösterge paneli](https://dashboard.ticketsbot.cloud/manage/%d/settings) adresini ziyaret edin",
+	"commands.autoclose.configure": "Otomatik kapatma ayarlarını değiştirmek için [gösterge paneli](https://dashboard.tickets.bot/manage/%d/settings) adresini ziyaret edin",
 	"help.autoclose": "Otomatik bilet kapatma ile ilgili komutlar",
 	"help.autoclose.exclude": "Geçerli biletin otomatik kapatılmasını devre dışı bırakır",
 	"help.autoclose.configure": "Otomatik kapatma ile ilgili ayarları düzenleyin",
@@ -216,7 +217,7 @@
 			"select": "Bir dil seçin (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` komutu yalnızca alt başlık modunda kullanılabilir. Alt başlıklar hakkında daha fazla bilgi almak için [belgelerimizi](https://docs.ticketsbot.cloud/features/thread-mode) ziyaret edin",
+			"channel_mode": "`/on-call` komutu yalnızca alt başlık modunda kullanılabilir. Alt başlıklar hakkında daha fazla bilgi almak için [belgelerimizi](https://docs.tickets.bot/features/thread-mode) ziyaret edin",
 			"success": "Şu anda görevdesiniz",
 			"remove_success": "Artık görevde değilsiniz"
 		},
@@ -258,9 +259,9 @@
 					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
-			"about": "Premium daha fazla panele, istatistiklere, özel bir bota ve daha fazlasına erişim sağlar! Daha fazlasını öğrenmek için [web sitemizi](https://ticketsbot.cloud/premium) ziyaret edin.",
+			"about": "Premium daha fazla panele, istatistiklere, özel bir bota ve daha fazlasına erişim sağlar! Daha fazlasını öğrenmek için [web sitemizi](https://tickets.bot/premium) ziyaret edin.",
 			"already_activated": "İyi haber! Premium zaten bu sunucuda aktif.",
-			"already_activated_whitelabel": "İyi haber! Premium zaten bu sunucuda aktif.\n\nSunucunuza özel botu kullanmaya başlama konusunda yardım almak için [özel bot kurulumu kılavuzumuzu](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide) okuyun.",
+			"already_activated_whitelabel": "İyi haber! Premium zaten bu sunucuda aktif.\n\nSunucunuza özel botu kullanmaya başlama konusunda yardım almak için [özel bot kurulumu kılavuzumuzu](https://docs.tickets.bot/premium/whitelabel-setup-guide) okuyun.",
 			"discord": {
 				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
 			},
@@ -297,6 +298,30 @@
 				"accept": "Kabul et ve kapat",
 				"deny": "Reddet ve açık tut"
 			}
+		},
+		"permissions": {
+			"title": "Permissions Check",
+			"has_admin": "✅ <@%d> has the Administrator permission",
+			"has_all": "✅ <@%d> has all the required permissions",
+			"missing": "❌ Missing Permissions",
+			"decreption": {
+				"read_messages": "Allows the bot to view the content of a channel.",
+				"send_messages": "Allows the bot to send messages in channels.",
+				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",
+				"attach_files": "Allows the bot to assign the attach files permission to the ticket opener.",
+				"add_reactions": "Allows the bot to add the buttons to ticket panels, welcome messages, and all commands that use buttons.",
+				"use_external_emojis": "Allows the bot to use non-server emojis in ticket panels, welcome messages, and tags. Bot must still be in the other server to use them.",
+				"mention_everyone": "Allows the bot to mention everyone, here and all roles in a ticket.",
+				"read_message_history": "Allows the bot to read all messages in a channel.",
+				"manage_channels": "Allows the bot to create, rename, recategorize, and delete channels.",
+				"manage_roles": "Allows the bot to create and edit roles; give and take away roles from users; and adjust a channel's role permissions.",
+				"manage_webhooks": "Allows the bot to create webhooks for transcripts, and for staff to use the dashboard to send messages or tags in open tickets.",
+				"manage_threads": "Allows the bot to create, rename, close, and delete threads.",
+				"send_messages_in_threads": "Allows the bot to send messages in threads.",
+				"create_public_threads": "Allows the bot to create public threads.",
+				"create_private_threads": "Allows the bot to create private threads, such as thread mode tickets and the /notes command for channel tickets.",
+				"use_application_commands": "Allows the bot's slash commands to work."
+			}
 		}
 	},
 	"generic": {
@@ -326,7 +351,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": "Daha fazlasını keşfetmek ister misiniz? [Belgeler](https://docs.ticketsbot.cloud) size, botun her yönünü nasıl yapılandırılacağını öğretecek!"
+			"docs": "Daha fazlasını keşfetmek ister misiniz? [Belgeler](https://docs.tickets.bot) size, botun her yönünü nasıl yapılandırılacağını öğretecek!"
 		},
 		"threads": {
 			"no_notification_channel": "Bir bilet bildirimi kanalı sağlamalısınız",
