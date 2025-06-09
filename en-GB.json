@@ -295,7 +295,6 @@
 			"header": "<@%d> has requested to close this ticket.",
 			"reason": "Reason:\n```%s```",
 			"close_delay": "The ticket will automatically be closed <t:%d:R> at <t:%d:t>.",
-			"invalid_format": "Invalid close_delay format:\nUse e.g. 10m, 2h, 1d, 1h30m, or just a number for hours.",
 			"footer": "Please accept or deny using the buttons below.",
 			"no_permission": "Only the user who opened the ticket can respond to the close request",
 			"denied": "<@%d> denied the close request.",
