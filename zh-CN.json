@@ -43,7 +43,7 @@
 	"help.about": "告诉您有关机器人的信息",
 	"help.add": "将用户添加到问题单",
 	"help.addadmin": "授予用户或身份组管理员权限",
-	"help.addsupport": "添加用户或身份组作为问题单支持小组",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "机器人管理",
 	"help.admin.blacklist": "将服务器使用机器人列入黑名单",
 	"help.admin.check_premium": "检查服务器是否有开通高级版",
@@ -297,6 +297,20 @@
 			"buttons": {
 				"accept": "接受并关闭",
 				"deny": "拒绝并保持开启"
+		},
+		"viewstaff": {
+			"title": "Staff",
+			"admin": {
+				"users": "Admin Users",
+				"roles": "Admin Roles",
+				"no_users": "No admin users",
+				"no_roles": "No admin roles"
+			},
+			"support": {
+				"users": "Support Users",
+				"roles": "Support Roles",
+				"no_roles": "No support roles",
+				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
 		},
 		"permissions": {
@@ -304,7 +318,7 @@
 			"has_admin": "✅ <@%d> has the Administrator permission",
 			"has_all": "✅ <@%d> has all the required permissions",
 			"missing": "❌ Missing Permissions",
-			"decreption": {
+			"description": {
 				"read_messages": "Allows the bot to view the content of a channel.",
 				"send_messages": "Allows the bot to send messages in channels.",
 				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",

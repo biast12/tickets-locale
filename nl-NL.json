@@ -43,7 +43,7 @@
 	"help.about": " Vertelt je informatie over de bot",
 	"help.add": "Voegt een gebruiker toe aan een ticket",
 	"help.addadmin": "Geeft een gebruiker of rol beheerdersrechten",
-	"help.addsupport": "Voegt een gebruiker of rol toe als ondersteuningsvertegenwoordiger",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Botbeheer",
 	"help.admin.blacklist": "Blacklist een guild van het gebruiken van de bot",
 	"help.admin.check_premium": "Bekijk de premium status van een server",
@@ -297,6 +297,20 @@
 			"buttons": {
 				"accept": "Accepteren & Sluiten",
 				"deny": "Weigeren en open houden"
+		},
+		"viewstaff": {
+			"title": "Staff",
+			"admin": {
+				"users": "Admin Users",
+				"roles": "Admin Roles",
+				"no_users": "No admin users",
+				"no_roles": "No admin roles"
+			},
+			"support": {
+				"users": "Support Users",
+				"roles": "Support Roles",
+				"no_roles": "No support roles",
+				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
 		},
 		"permissions": {
@@ -304,7 +318,7 @@
 			"has_admin": "✅ <@%d> has the Administrator permission",
 			"has_all": "✅ <@%d> has all the required permissions",
 			"missing": "❌ Missing Permissions",
-			"decreption": {
+			"description": {
 				"read_messages": "Allows the bot to view the content of a channel.",
 				"send_messages": "Allows the bot to send messages in channels.",
 				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",

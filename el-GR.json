@@ -43,7 +43,7 @@
 	"help.about": "Σας δίνει πληροφορίες σχετικά με το bot",
 	"help.add": "Βαζει έναν χρήστη σε ticket",
 	"help.addadmin": "Παραχωρεί δικαιώματα διαχειριστή σε χρήστη ή σε ρόλο",
-	"help.addsupport": "Προσθέτει έναν χρήστη ή ρόλο ως αντιπρόσωπο υποστήριξης",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Διαχείριση bot",
 	"help.admin.blacklist": "Αποκλεισμός μιας συντεχνίας από το να χρησιμοποιήσει το bot",
 	"help.admin.check_premium": "Ελέγξτε την κατάσταση Premium ενός διακομιστή",
@@ -297,6 +297,20 @@
 			"buttons": {
 				"accept": "Αποδοχή και κλείσιμο",
 				"deny": "Απόρριψη και Διατήρησε το Ανοιχτό"
+		},
+		"viewstaff": {
+			"title": "Staff",
+			"admin": {
+				"users": "Admin Users",
+				"roles": "Admin Roles",
+				"no_users": "No admin users",
+				"no_roles": "No admin roles"
+			},
+			"support": {
+				"users": "Support Users",
+				"roles": "Support Roles",
+				"no_roles": "No support roles",
+				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
 		},
 		"permissions": {
@@ -304,7 +318,7 @@
 			"has_admin": "✅ <@%d> has the Administrator permission",
 			"has_all": "✅ <@%d> has all the required permissions",
 			"missing": "❌ Missing Permissions",
-			"decreption": {
+			"description": {
 				"read_messages": "Allows the bot to view the content of a channel.",
 				"send_messages": "Allows the bot to send messages in channels.",
 				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",

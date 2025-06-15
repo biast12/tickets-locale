@@ -43,7 +43,7 @@
 	"help.about": "Govori vam informacije o botu",
 	"help.add": "Dodajte korisnika u tiket",
 	"help.addadmin": "Daje korisniku ili ulozi administratorske povlastice",
-	"help.addsupport": "Dodaje korisnika ili ulogu predstavnika podrške",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Upravljanje botom",
 	"help.admin.blacklist": "Blacklist ceh od korištenja bot-a",
 	"help.admin.check_premium": "Provjerite premium status servera",
@@ -297,6 +297,20 @@
 			"buttons": {
 				"accept": "Prihvati i zatvori",
 				"deny": "Odbij i ostavi otvoreno"
+		},
+		"viewstaff": {
+			"title": "Staff",
+			"admin": {
+				"users": "Admin Users",
+				"roles": "Admin Roles",
+				"no_users": "No admin users",
+				"no_roles": "No admin roles"
+			},
+			"support": {
+				"users": "Support Users",
+				"roles": "Support Roles",
+				"no_roles": "No support roles",
+				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
 		},
 		"permissions": {
@@ -304,7 +318,7 @@
 			"has_admin": "✅ <@%d> has the Administrator permission",
 			"has_all": "✅ <@%d> has all the required permissions",
 			"missing": "❌ Missing Permissions",
-			"decreption": {
+			"description": {
 				"read_messages": "Allows the bot to view the content of a channel.",
 				"send_messages": "Allows the bot to send messages in channels.",
 				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",

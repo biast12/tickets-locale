@@ -43,7 +43,7 @@
 	"help.about": "מספר לך מידע על הבוט",
 	"help.add": "מוסיף משתמש לכרטיס",
 	"help.addadmin": "מעניק למשתמש או תפקיד מנהל הרשאות",
-	"help.addsupport": "מוסיף משתמש או תפקיד כנציג תמיכה",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "ניהול הבוט",
 	"help.admin.blacklist": "רשימה שחורה של אנשים משימוש בבוט",
 	"help.admin.check_premium": "בדוק את סטטוס הפרימיום של שרת",
@@ -297,6 +297,20 @@
 			"buttons": {
 				"accept": "אשר & סגור",
 				"deny": "דחה & תמשיך לפתוח"
+		},
+		"viewstaff": {
+			"title": "Staff",
+			"admin": {
+				"users": "Admin Users",
+				"roles": "Admin Roles",
+				"no_users": "No admin users",
+				"no_roles": "No admin roles"
+			},
+			"support": {
+				"users": "Support Users",
+				"roles": "Support Roles",
+				"no_roles": "No support roles",
+				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
 		},
 		"permissions": {
@@ -304,7 +318,7 @@
 			"has_admin": "✅ <@%d> has the Administrator permission",
 			"has_all": "✅ <@%d> has all the required permissions",
 			"missing": "❌ Missing Permissions",
-			"decreption": {
+			"description": {
 				"read_messages": "Allows the bot to view the content of a channel.",
 				"send_messages": "Allows the bot to send messages in channels.",
 				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",

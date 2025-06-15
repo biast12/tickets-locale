@@ -43,7 +43,7 @@
 	"help.about": "Tells you information about the bot",
 	"help.add": "Adds a user to a ticket",
 	"help.addadmin": "Grants a user or role admin privileges",
-	"help.addsupport": "Adds a user or role as a support representative",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Bot management",
 	"help.admin.blacklist": "Blacklist a guild from using the bot",
 	"help.admin.check_premium": "Check the premium status of a server",
@@ -297,6 +297,20 @@
 			"buttons": {
 				"accept": "Akcepti & Fermi",
 				"deny": "Malakcepti & Lasu Malfermita"
+		},
+		"viewstaff": {
+			"title": "Staff",
+			"admin": {
+				"users": "Admin Users",
+				"roles": "Admin Roles",
+				"no_users": "No admin users",
+				"no_roles": "No admin roles"
+			},
+			"support": {
+				"users": "Support Users",
+				"roles": "Support Roles",
+				"no_roles": "No support roles",
+				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
 		},
 		"permissions": {
@@ -304,7 +318,7 @@
 			"has_admin": "✅ <@%d> has the Administrator permission",
 			"has_all": "✅ <@%d> has all the required permissions",
 			"missing": "❌ Missing Permissions",
-			"decreption": {
+			"description": {
 				"read_messages": "Allows the bot to view the content of a channel.",
 				"send_messages": "Allows the bot to send messages in channels.",
 				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",

@@ -43,7 +43,7 @@
 	"help.about": "Et proporciona informació del bot",
 	"help.add": "Afegeix un usuari a un tiquet",
 	"help.addadmin": "Proporciona privilegis d'administració a un usuari o rol",
-	"help.addsupport": "Afegeix un usuari o rol com a equip de suport",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Gestió del bot",
 	"help.admin.blacklist": "Posa un servidor a la llista negra del bot",
 	"help.admin.check_premium": "Comprova l'estat Premium del servidor",
@@ -76,7 +76,7 @@
 	"help.unclaim": "Treu el reclam del tiquet actual",
 	"help.viewstaff": "Llista els membres i rols de l'equip",
 	"help.vote": "Proporciona un enllaç per votar i tenir Premium gratis",
-	"help.check_perms": "Check if the Bot has the right Permissions",
+	"help.check_perms": "Comprova si el bot té els Permisos necessaris",
 	"open.success": "S'ha obert un nou tiquet: %s",
 	"setup.auto.category.failure": "Trobo a faltar el permís per gestionar canals (`Manage Channels`)",
 	"setup.auto.category.success": "S'ha creat la categoria de Tickets",
@@ -272,7 +272,7 @@
 			"added_to_existing": "Has estat afegit a un fil de notes existent: <#%d>",
 			"thread_name": "notes",
 			"created": "S'ha creat un fil de notes pel tiquet: <#%d>",
-			"channel_mode_only": "Note threads are only supported in channel mode"
+			"channel_mode_only": "Tingues en compte que els fils només són compatibles amb el mode de canals"
 		},
 		"rename": {
 			"ratelimited": "Per limitacions imposades per Discord, els tiquets només es poden reanomenar 2 vegades cada 10 minuts"
@@ -297,14 +297,28 @@
 			"buttons": {
 				"accept": "Acceptar & Tancar",
 				"deny": "Denegar & Mantenir Obert"
+		},
+		"viewstaff": {
+			"title": "Staff",
+			"admin": {
+				"users": "Admin Users",
+				"roles": "Admin Roles",
+				"no_users": "No admin users",
+				"no_roles": "No admin roles"
+			},
+			"support": {
+				"users": "Support Users",
+				"roles": "Support Roles",
+				"no_roles": "No support roles",
+				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
 		},
 		"permissions": {
-			"title": "Permissions Check",
-			"has_admin": "✅ <@%d> has the Administrator permission",
-			"has_all": "✅ <@%d> has all the required permissions",
-			"missing": "❌ Missing Permissions",
-			"decreption": {
+			"title": "Verificació de Permisos",
+			"has_admin": "✅ <@%d> té permís de l'Administració",
+			"has_all": "✅ <@%d> té tots els permisos necessaris",
+			"missing": "❌ Falten Permisos",
+			"description": {
 				"read_messages": "Allows the bot to view the content of a channel.",
 				"send_messages": "Allows the bot to send messages in channels.",
 				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",

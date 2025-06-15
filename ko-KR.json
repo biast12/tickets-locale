@@ -43,7 +43,7 @@
 	"help.about": "봇에 대한 정보를 제공합니다.",
 	"help.add": "유저를 티켓에 추가하기",
 	"help.addadmin": "사용자 또는 역할의 관리자 권한을 부여합니다.",
-	"help.addsupport": "사용자 또는 역할을 지원 담당자로 추가합니다.",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "봇 관리",
 	"help.admin.blacklist": "봇 사용을 길드에서 차단합니다.",
 	"help.admin.check_premium": "서버의 프리미엄 상태 확인",
@@ -297,6 +297,20 @@
 			"buttons": {
 				"accept": "수락및 닫기",
 				"deny": "거부및 오픈 유지"
+		},
+		"viewstaff": {
+			"title": "Staff",
+			"admin": {
+				"users": "Admin Users",
+				"roles": "Admin Roles",
+				"no_users": "No admin users",
+				"no_roles": "No admin roles"
+			},
+			"support": {
+				"users": "Support Users",
+				"roles": "Support Roles",
+				"no_roles": "No support roles",
+				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
 		},
 		"permissions": {
@@ -304,7 +318,7 @@
 			"has_admin": "✅ <@%d> has the Administrator permission",
 			"has_all": "✅ <@%d> has all the required permissions",
 			"missing": "❌ Missing Permissions",
-			"decreption": {
+			"description": {
 				"read_messages": "Allows the bot to view the content of a channel.",
 				"send_messages": "Allows the bot to send messages in channels.",
 				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",

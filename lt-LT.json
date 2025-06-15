@@ -43,7 +43,7 @@
 	"help.about": "Pateikiama informacija apie robotą",
 	"help.add": "Prideda vartotoją prie bilieto",
 	"help.addadmin": "Suteikia vartotojui arba rolei administracijos privilegijas",
-	"help.addsupport": "Suteikia vartotojui arba rolei pagalbos nario privilegijas",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Roboto valdymas",
 	"help.admin.blacklist": "Įtraukite serverį į juodąjį sąrašą, kad negalėtu naudoti šio roboto",
 	"help.admin.check_premium": "Patikrinkite šio serverio, premium prenumeratos būseną",
@@ -297,6 +297,20 @@
 			"buttons": {
 				"accept": "Priimti ir uždaryti",
 				"deny": "Atmesti ir palikti atidaryta"
+		},
+		"viewstaff": {
+			"title": "Staff",
+			"admin": {
+				"users": "Admin Users",
+				"roles": "Admin Roles",
+				"no_users": "No admin users",
+				"no_roles": "No admin roles"
+			},
+			"support": {
+				"users": "Support Users",
+				"roles": "Support Roles",
+				"no_roles": "No support roles",
+				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
 		},
 		"permissions": {
@@ -304,7 +318,7 @@
 			"has_admin": "✅ <@%d> has the Administrator permission",
 			"has_all": "✅ <@%d> has all the required permissions",
 			"missing": "❌ Missing Permissions",
-			"decreption": {
+			"description": {
 				"read_messages": "Allows the bot to view the content of a channel.",
 				"send_messages": "Allows the bot to send messages in channels.",
 				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",

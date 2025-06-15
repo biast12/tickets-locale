@@ -43,7 +43,7 @@
 	"help.about": "ボットに関する情報を表示します。",
 	"help.add": "チケットにユーザーを追加します。",
 	"help.addadmin": "ユーザーまたはロールに管理者権限を付与します。",
-	"help.addsupport": "サポート担当者のユーザーまたはロールを追加します。",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "ボットの管理",
 	"help.admin.blacklist": "サーバーをサーバーブラックリストに登録します。",
 	"help.admin.check_premium": "サーバーのプレミアム加入状態を確認します。",
@@ -297,6 +297,20 @@
 			"buttons": {
 				"accept": "承諾して閉じる",
 				"deny": "拒否して開いたままにする"
+		},
+		"viewstaff": {
+			"title": "Staff",
+			"admin": {
+				"users": "Admin Users",
+				"roles": "Admin Roles",
+				"no_users": "No admin users",
+				"no_roles": "No admin roles"
+			},
+			"support": {
+				"users": "Support Users",
+				"roles": "Support Roles",
+				"no_roles": "No support roles",
+				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
 		},
 		"permissions": {
@@ -304,7 +318,7 @@
 			"has_admin": "✅ <@%d> has the Administrator permission",
 			"has_all": "✅ <@%d> has all the required permissions",
 			"missing": "❌ Missing Permissions",
-			"decreption": {
+			"description": {
 				"read_messages": "Allows the bot to view the content of a channel.",
 				"send_messages": "Allows the bot to send messages in channels.",
 				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",

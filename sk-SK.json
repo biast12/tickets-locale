@@ -43,7 +43,7 @@
 	"help.about": "Poskytuje informácie o botovi",
 	"help.add": "Pridá používateľa do tiketu",
 	"help.addadmin": "Udeľuje používateľovi alebo role oprávnenia správcu",
-	"help.addsupport": "Pridá používateľa alebo rolu ako zástupcu podpory",
+	"help.addsupport": "Adds a role as a support representative",
 	"help.admin": "Správa botov",
 	"help.admin.blacklist": "Čierna listina spolku, ktorý nesmie používať bota",
 	"help.admin.check_premium": "Kontrola prémiového stavu servera",
@@ -297,6 +297,20 @@
 			"buttons": {
 				"accept": "Prijatie a zatvorenie",
 				"deny": "Odmietnuť a ponechať otvorené"
+		},
+		"viewstaff": {
+			"title": "Staff",
+			"admin": {
+				"users": "Admin Users",
+				"roles": "Admin Roles",
+				"no_users": "No admin users",
+				"no_roles": "No admin roles"
+			},
+			"support": {
+				"users": "Support Users",
+				"roles": "Support Roles",
+				"no_roles": "No support roles",
+				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
 			}
 		},
 		"permissions": {
@@ -304,7 +318,7 @@
 			"has_admin": "✅ <@%d> has the Administrator permission",
 			"has_all": "✅ <@%d> has all the required permissions",
 			"missing": "❌ Missing Permissions",
-			"decreption": {
+			"description": {
 				"read_messages": "Allows the bot to view the content of a channel.",
 				"send_messages": "Allows the bot to send messages in channels.",
 				"embed_links": "Allows the bot to send ticket panels, welcome messages, and tags that include an embedded message.",
