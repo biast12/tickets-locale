@@ -302,7 +302,7 @@
 			"has_admin": "<@%d> đã sở hữu quyền Quản Trị",
 			"has_all": "<@%d> đã sở hữu tất cả quyền được yêu cầu",
 			"missing": "❌ Thiếu quyền lợi",
-			"decreption": {
+			"description": {
 				"read_messages": "Cho phép bot xem thông tin của kênh.",
 				"send_messages": "Cho phép bot gửi tin nhắn trong các kênh.",
 				"embed_links": "Cho phép bot tạo bảng phiếu hỗ trợ, gửi tin nhắn chào mừng và tin nhắn từ thẻ tên có chứa liên kết nhúng.",
