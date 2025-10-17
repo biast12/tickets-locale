@@ -47,6 +47,7 @@
 	"help.admin": "Bot yönetimi",
 	"help.admin.blacklist": "Sunucunun botu kullanmasını kara listeye alarak engelle",
 	"help.admin.check_premium": "Sunucunun premium olup olmadığını kontrol et",
+	"help.admin.debug": "Debug a server's settings",
 	"help.admin.generate_premium": "Premium anahtarları oluşturur",
 	"help.admin.get_owner": "Bir sunucunun sahibini gösterir",
 	"help.admin.unblacklist": "Bir sunucuyu sunucu kara listesinden çıkarın",
@@ -78,6 +79,7 @@
 	"help.vote": "Ücretsiz premium üyelik için oy bağlantısı",
 	"help.check_perms": "Check if the Bot has the right Permissions",
 	"open.success": "Talebin oluşturuldu: %s",
+	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
 	"setup.auto.category.failure": "Kanalları yönet iznine sahip değil",
 	"setup.auto.category.success": "Destek kategorisi oluşturuldu",
 	"setup.auto.completed": "Kurulum tamamlandı! Bir reaksiyon paneli kurmak için [buraya] (https://dashboard.tickets.bot/manage/%d/panels) tıklayın ve personel üyelerinize <@&%d> ve <@&%d> rollerini ekleyin",
@@ -180,7 +182,7 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Geçersiz panel: Açılır menüden birini seçmelisiniz",
-			"success": "Bu bilet <@%d> tarafından, `%s` paneline geçirildi"
+			"success": "Bu bilet <@%[2]d> tarafından, `%[1]s` paneline geçirildi"
 		},
 		"blacklist": {
 			"staff": "Yönetici üyeler kara listeye alınamaz",
