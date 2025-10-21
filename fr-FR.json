@@ -130,11 +130,11 @@
 	"generic.title.add_support": "Support ajouté",
 	"generic.title.remove_admin": "Administrateur supprimé",
 	"generic.title.remove_support": "Support supprimé",
-	"commands.addsupport.success": "Support ajouté avec succès",
+	"commands.addsupport.success": "Support ajouté avec succès: %s",
 	"generic.title.language": "Langue",
-	"commands.removesupport.success": "Support supprimé avec succès",
-	"commands.addadmin.success": "Administrateur ajouté avec succès",
-	"commands.removeadmin.success": "Administrateur supprimé avec succès",
+	"commands.removesupport.success": "Support supprimé avec succès: %s",
+	"commands.addadmin.success": "Administrateur ajouté avec succès: %s",
+	"commands.removeadmin.success": "Administrateur supprimé avec succès: %s",
 	"generic.title.setup": "Configuration",
 	"generic.title.premium": "Premium",
 	"generic.title.panel": "Panneau",
@@ -294,6 +294,7 @@
 			}
 		},
 		"close_request": {
+			"success": "Close request was sent successfully",
 			"no_permission": "Seul l'utilisateur qui a ouvert le ticket peut répondre à la demande de clôture",
 			"denied": "<@%d> a refusé la demande de clôture.",
 			"buttons": {

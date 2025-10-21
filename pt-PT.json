@@ -130,11 +130,11 @@
 	"generic.title.add_support": "Adicionar Suporte",
 	"generic.title.remove_admin": "Remover Administrador",
 	"generic.title.remove_support": "Remover Suporte",
-	"commands.addsupport.success": "Representante do suporte adicionado com sucesso",
+	"commands.addsupport.success": "Support representative added successfully: %s",
 	"generic.title.language": "Idioma",
-	"commands.removesupport.success": "Representante do suporte removido com sucesso",
-	"commands.addadmin.success": "Administrador adicionado com sucesso",
-	"commands.removeadmin.success": "Administrador removido com sucesso",
+	"commands.removesupport.success": "Support representative removed successfully: %s",
+	"commands.addadmin.success": "Admin added successfully: %s",
+	"commands.removeadmin.success": "Admin removed successfully: %s",
 	"generic.title.setup": "Configuração",
 	"generic.title.premium": "Premium",
 	"generic.title.panel": "Painel",
@@ -294,6 +294,7 @@
 			}
 		},
 		"close_request": {
+			"success": "Close request was sent successfully",
 			"no_permission": "Só o utilizador que abriu este bilhete pode responder ao pedido de encerramento",
 			"denied": "<@%d> recusou o pedido de encerramento.",
 			"buttons": {

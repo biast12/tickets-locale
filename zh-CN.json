@@ -130,11 +130,11 @@
 	"generic.title.add_support": "添加支持",
 	"generic.title.remove_admin": "移除管理员",
 	"generic.title.remove_support": "移除支持",
-	"commands.addsupport.success": "添加支持代表成功",
+	"commands.addsupport.success": "Support representative added successfully: %s",
 	"generic.title.language": "语言",
-	"commands.removesupport.success": "移除支持代表成功",
-	"commands.addadmin.success": "已成功添加管理员",
-	"commands.removeadmin.success": "已成功移除管理员",
+	"commands.removesupport.success": "Support representative removed successfully: %s",
+	"commands.addadmin.success": "Admin added successfully: %s",
+	"commands.removeadmin.success": "Admin removed successfully: %s",
 	"generic.title.setup": "部署",
 	"generic.title.premium": "高级订阅",
 	"generic.title.panel": "控制面板",
@@ -294,6 +294,7 @@
 			}
 		},
 		"close_request": {
+			"success": "Close request was sent successfully",
 			"no_permission": "只有打开工单的用户才可以响应关闭请求",
 			"denied": "<@%d> 拒绝了关闭请求.",
 			"buttons": {

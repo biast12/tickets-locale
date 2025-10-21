@@ -130,11 +130,11 @@
 	"generic.title.add_support": "Tilføj Support",
 	"generic.title.remove_admin": "Fjern administrator",
 	"generic.title.remove_support": "Fjern Support",
-	"commands.addsupport.success": "Supportrepræsentant succesfuldt tilføjet",
+	"commands.addsupport.success": "Support representative added successfully: %s",
 	"generic.title.language": "Sprog",
-	"commands.removesupport.success": "Supportrepræsentant blev fjernet",
-	"commands.addadmin.success": "Administrator tilføjet",
-	"commands.removeadmin.success": "Administrator fjernet",
+	"commands.removesupport.success": "Support representative removed successfully: %s",
+	"commands.addadmin.success": "Admin added successfully: %s",
+	"commands.removeadmin.success": "Admin removed successfully: %s",
 	"generic.title.setup": "Opsætning",
 	"generic.title.premium": "Premium",
 	"generic.title.panel": "Panel",
@@ -294,6 +294,7 @@
 			}
 		},
 		"close_request": {
+			"success": "Close request was sent successfully",
 			"no_permission": "Kun den bruger, der åbnede denne ticket, kan respondere på anmodningen om at lukke den",
 			"denied": "<@%d> afviste at lukke denne ticket.",
 			"buttons": {

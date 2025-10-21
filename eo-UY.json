@@ -130,11 +130,11 @@
 	"generic.title.add_support": "Add Support",
 	"generic.title.remove_admin": "Remove Admin",
 	"generic.title.remove_support": "Remove Support",
-	"commands.addsupport.success": "Support representative added successfully",
+	"commands.addsupport.success": "Support representative added successfully: %s",
 	"generic.title.language": "Language",
-	"commands.removesupport.success": "Support representative removed successfully",
-	"commands.addadmin.success": "Admin added successfully",
-	"commands.removeadmin.success": "Admin removed successfully",
+	"commands.removesupport.success": "Support representative removed successfully: %s",
+	"commands.addadmin.success": "Admin added successfully: %s",
+	"commands.removeadmin.success": "Admin removed successfully: %s",
 	"generic.title.setup": "Agordo",
 	"generic.title.premium": "Premiumo",
 	"generic.title.panel": "Panelo",
@@ -294,6 +294,7 @@
 			}
 		},
 		"close_request": {
+			"success": "Close request was sent successfully",
 			"no_permission": "Only the user who opened the ticket can respond to the close request",
 			"denied": "<@%d> denied the close request.",
 			"buttons": {

@@ -130,11 +130,11 @@
 	"generic.title.add_support": "Support hinzufügen",
 	"generic.title.remove_admin": "Administrator entfernen",
 	"generic.title.remove_support": "Support entfernen",
-	"commands.addsupport.success": "Support-Vertreter erfolgreich hinzugefügt",
+	"commands.addsupport.success": "Support representative added successfully: %s",
 	"generic.title.language": "Sprache",
-	"commands.removesupport.success": "Support-Vertreter erfolgreich entfernt",
-	"commands.addadmin.success": "Administrator erfolgreich hinzugefügt",
-	"commands.removeadmin.success": "Administrator erfolgreich entfernt",
+	"commands.removesupport.success": "Support representative removed successfully: %s",
+	"commands.addadmin.success": "Admin added successfully: %s",
+	"commands.removeadmin.success": "Admin removed successfully: %s",
 	"generic.title.setup": "Einrichtung",
 	"generic.title.premium": "Premium",
 	"generic.title.panel": "Panel",
@@ -294,6 +294,7 @@
 			}
 		},
 		"close_request": {
+			"success": "Close request was sent successfully",
 			"no_permission": "Nur der Benutzer, der das Ticket geöffnet hat, kann auf die Schliessungsanfrage antworten",
 			"denied": "<@%d> hat die Schliessungsanfrage abgelehnt.",
 			"buttons": {

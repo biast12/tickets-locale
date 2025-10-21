@@ -130,11 +130,11 @@
 	"generic.title.add_support": "Προσθήκη υποστήριξης",
 	"generic.title.remove_admin": "Αφαίρεση Διαχειριστή",
 	"generic.title.remove_support": "Αφαίρεση Υποστήριξης",
-	"commands.addsupport.success": "Ο εκπρόσωπος υποστήριξης προστέθηκε επιτυχώς",
+	"commands.addsupport.success": "Support representative added successfully: %s",
 	"generic.title.language": "Γλώσσα",
-	"commands.removesupport.success": "Ο εκπρόσωπος υποστήριξης αφαιρέθηκε επιτυχώς",
-	"commands.addadmin.success": "Ο διαχειριστής προστέθηκε επιτυχώς",
-	"commands.removeadmin.success": "Ο διαχειριστής αφαιρέθηκε επιτυχώς",
+	"commands.removesupport.success": "Support representative removed successfully: %s",
+	"commands.addadmin.success": "Admin added successfully: %s",
+	"commands.removeadmin.success": "Admin removed successfully: %s",
 	"generic.title.setup": "Ρύθμιση",
 	"generic.title.premium": "Premium",
 	"generic.title.panel": "Πίνακας",
@@ -294,6 +294,7 @@
 			}
 		},
 		"close_request": {
+			"success": "Close request was sent successfully",
 			"no_permission": "Μόνο ο χρήστης που άνοιξε το αίτημα μπορεί να ανταποκριθεί στην αίτηση κλεισίματος",
 			"denied": "<@%d> αρνήθηκε την αίτηση κλεισίματος.",
 			"buttons": {

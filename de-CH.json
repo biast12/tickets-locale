@@ -130,11 +130,11 @@
 	"generic.title.add_support": "Support hinzuefüege",
 	"generic.title.remove_admin": "Administrator entferne",
 	"generic.title.remove_support": "Support entferne",
-	"commands.addsupport.success": "Support-Vertreter isch erfolgriich hinzuegfüegt worde",
+	"commands.addsupport.success": "Support representative added successfully: %s",
 	"generic.title.language": "Sprach",
-	"commands.removesupport.success": "Support-Vertreter isch erfolgriich entfernt worde",
-	"commands.addadmin.success": "Administrator erfolgriich hinzuegfüegt",
-	"commands.removeadmin.success": "Administrator erfolgriich entfernt",
+	"commands.removesupport.success": "Support representative removed successfully: %s",
+	"commands.addadmin.success": "Admin added successfully: %s",
+	"commands.removeadmin.success": "Admin removed successfully: %s",
 	"generic.title.setup": "Iirichtig",
 	"generic.title.premium": "Premium",
 	"generic.title.panel": "Panel",
@@ -294,6 +294,7 @@
 			}
 		},
 		"close_request": {
+			"success": "Close request was sent successfully",
 			"no_permission": "Nur de Benutzer, wo s'Ticket uufgmacht het, cha uf d'Schlüssigsaafrag antworte",
 			"denied": "<@%d> het d'Schlüssigsaafrag abglehnt.",
 			"buttons": {

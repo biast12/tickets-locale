@@ -130,11 +130,11 @@
 	"generic.title.add_support": "Додати Помічника",
 	"generic.title.remove_admin": "Видалити Адміністратора",
 	"generic.title.remove_support": "Видалити Помічника",
-	"commands.addsupport.success": "Помічника додано",
+	"commands.addsupport.success": "Support representative added successfully: %s",
 	"generic.title.language": "Мова",
-	"commands.removesupport.success": "Помічника видалено",
-	"commands.addadmin.success": "Адміністратора додано",
-	"commands.removeadmin.success": "Адміністратор видалений успішно",
+	"commands.removesupport.success": "Support representative removed successfully: %s",
+	"commands.addadmin.success": "Admin added successfully: %s",
+	"commands.removeadmin.success": "Admin removed successfully: %s",
 	"generic.title.setup": "Установка",
 	"generic.title.premium": "Преміум",
 	"generic.title.panel": "Панель",
@@ -333,6 +333,7 @@
 			}
 		},
 		"close_request": {
+			"success": "Close request was sent successfully",
 			"no_permission": "Лише користувач, що відкрив заявку, може відповідати на запит її закриття",
 			"denied": "<@%d> не дав дозволу на закриття заявки.",
 			"buttons": {

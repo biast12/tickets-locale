@@ -130,11 +130,11 @@
 	"generic.title.add_support": "Support toevoegen",
 	"generic.title.remove_admin": "Beheerder verwijderen",
 	"generic.title.remove_support": "Support verwijderen",
-	"commands.addsupport.success": "Support vertegenwoordiger succesvol toegevoegd",
+	"commands.addsupport.success": "Support representative added successfully: %s",
 	"generic.title.language": "Taal",
-	"commands.removesupport.success": "Support vertegenwoordiger succesvol verwijderd",
-	"commands.addadmin.success": "Beheerder succesvol toegevoegd",
-	"commands.removeadmin.success": "Beheerder succesvol verwijderd",
+	"commands.removesupport.success": "Support representative removed successfully: %s",
+	"commands.addadmin.success": "Admin added successfully: %s",
+	"commands.removeadmin.success": "Admin removed successfully: %s",
 	"generic.title.setup": "Installatie",
 	"generic.title.premium": "Premium",
 	"generic.title.panel": "Paneel",
@@ -294,6 +294,7 @@
 			}
 		},
 		"close_request": {
+			"success": "Close request was sent successfully",
 			"no_permission": "Alleen de gebruiker die het ticket heeft geopend kan reageren op de sluitingsaanvraag",
 			"denied": "<@%d> heeft het sluitingsverzoek geweigerd.",
 			"buttons": {

@@ -130,11 +130,11 @@
 	"generic.title.add_support": "Dodaj podršku",
 	"generic.title.remove_admin": "Ukloni administratora",
 	"generic.title.remove_support": "Ukloni podršku",
-	"commands.addsupport.success": "Predstavnik podrške uspješno je dodan",
+	"commands.addsupport.success": "Support representative added successfully: %s",
 	"generic.title.language": "Jezik",
-	"commands.removesupport.success": "Predstavnik podrške uspješno je uklonjen",
-	"commands.addadmin.success": "Uspješno dodan Admin",
-	"commands.removeadmin.success": "Uspješno uklonjen Admin",
+	"commands.removesupport.success": "Support representative removed successfully: %s",
+	"commands.addadmin.success": "Admin added successfully: %s",
+	"commands.removeadmin.success": "Admin removed successfully: %s",
 	"generic.title.setup": "Postavljanje",
 	"generic.title.premium": "Premija",
 	"generic.title.panel": "Ploča",
@@ -294,6 +294,7 @@
 			}
 		},
 		"close_request": {
+			"success": "Close request was sent successfully",
 			"no_permission": "Na zahtjev za zatvaranje može odgovoriti samo korisnik koji je otvorio kartu",
 			"denied": "<@%d> je odbio zahtjev za zatvaranje.",
 			"buttons": {

@@ -130,11 +130,11 @@
 	"generic.title.add_support": "サポート担当者を追加",
 	"generic.title.remove_admin": "管理者を削除",
 	"generic.title.remove_support": "サポート担当者を削除",
-	"commands.addsupport.success": "サポート担当者が追加されました",
+	"commands.addsupport.success": "Support representative added successfully: %s",
 	"generic.title.language": "言語",
-	"commands.removesupport.success": "サポート担当者を削除しました",
-	"commands.addadmin.success": "管理者を追加しました",
-	"commands.removeadmin.success": "管理者を削除しました",
+	"commands.removesupport.success": "Support representative removed successfully: %s",
+	"commands.addadmin.success": "Admin added successfully: %s",
+	"commands.removeadmin.success": "Admin removed successfully: %s",
 	"generic.title.setup": "セットアップ",
 	"generic.title.premium": "プレミアム",
 	"generic.title.panel": "パネル",
@@ -294,6 +294,7 @@
 			}
 		},
 		"close_request": {
+			"success": "Close request was sent successfully",
 			"no_permission": "チケットを開いたユーザーのみがクローズリクエストに応答できます",
 			"denied": "<@%d> がクローズリクエストを拒否しました。.",
 			"buttons": {
