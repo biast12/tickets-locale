@@ -43,10 +43,10 @@
 	"help.about": "Pateikiama informacija apie robotą",
 	"help.add": "Prideda vartotoją prie bilieto",
 	"help.addadmin": "Suteikia vartotojui arba rolei administracijos privilegijas",
-	"help.addsupport": "Adds a role as a support representative",
+	"help.addsupport": "Prideda palaikymo atstovo rolę",
 	"help.admin": "Roboto valdymas",
 	"help.admin.blacklist": "Įtraukite serverį į juodąjį sąrašą, kad negalėtu naudoti šio roboto",
-	"help.admin.debug.server": "Debug a server",
+	"help.admin.debug.server": "Atlikti serverio derinimą",
 	"help.admin.generate_premium": "Generuoti premium kodus",
 	"help.admin.unblacklist": "Panaikinti serverį iš juodojo sąrašo",
 	"help.blacklist": "Įjungia ar vartotojai gali sąveikauti su robotu",
@@ -75,9 +75,9 @@
 	"help.unclaim": "Nebeapsiimti dabartiniu bilietu",
 	"help.viewstaff": "Pagalbos narių ir rolių sąrašas",
 	"help.vote": "Suteikia nuorodą, kad prabalsuotuvėte už nemokamą premium prenumeratą",
-	"help.gdpr": "Manage your GDPR data requests",
+	"help.gdpr": "Tvarkyti GDPR duomenų užklausas",
 	"open.success": "Atidarytas naujas bilietas: %s",
-	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
+	"open.outside_support_hours": "Šis skydelis šiuo metu uždarytas. Bandykite dar kartą mūsų palaikymo darbo valandomis.",
 	"setup.auto.category.failure": "Man trūksta `Tvarkyti kanalus (Manage Channels)` privilegijų",
 	"setup.auto.category.success": "Sukurta bilietų kategorija",
 	"setup.auto.completed": "Konfiguracija pabaigta! Paspauskite [here](https://dashboard.tickets.bot/manage/%d/panels), kad sukonfiguruotumėte reakcijos skydelį ir pridėtumėte <@&%d> ir <@&%d> roles prie pagalbos narių",
@@ -100,6 +100,11 @@
 	"commands.open.from.moved": "Pokalbis buvo perkeltas į bilietą (<#%d>)",
 	"help.close_request": "Nusiunčia pranešima vartotojui, kad patvirtintų ar galima uždaryti bilietą",
 	"close.reason_too_long": "Priežastis negali būti ilgesnė nei 255 simboliai",
+	"commands.close_request.success": "Uždarymo užklausa buvo išsiųsta sėkmingai",
+	"commands.close_request.no_reason": "<@%d> prašo uždaryti bilietą.\n\nPriimkite arba atmeskite prašymą naudodami žemiau esančius mygtukus.",
+	"commands.close_request.with_reason": "<@%d> prašo uždaryti bilietą. Priežastis:\n```\n%s\n```\nPriimkite arba atmeskite prašymą naudodami žemiau esančius mygtukus.",
+	"commands.close_request.no_permission": "Tik vartotojas kuris atidarė bilietą gali atsakyti į prašymą",
+	"commands.close_request.denied": "<@%d> atmetė prašymą uždaryti bilietą",
 	"generic.error": "Klaida",
 	"feedback.disabled": "Šiame serveryje atsiliepimai yra išjungti",
 	"feedback.success": "Jūsų atsiliepimas buvo įrašytas",
@@ -119,23 +124,23 @@
 	"generic.title.invite": "Pakviesti",
 	"generic.title.close": "Uždaryti",
 	"generic.title.claim": "Apsiimti",
-	"generic.title.unclaim": "Unclaim",
+	"generic.title.unclaim": "Nuimti priskyrimą",
 	"generic.title.blacklisted": "Įrašytas į juodąjį sąrašą",
 	"generic.title.blacklist": "Juodasis sąrašas",
 	"generic.error.blacklisted": "Jūs esate įtrauktas į juodąjį sąrašą šiame serveryje",
-	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
-	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
+	"generic.error.guild_blacklisted": "Šiam serveriui uždrausta naudotis šiuo botu, nes jis yra juodajame sąraše",
+	"generic.error.user_blacklisted": "Jums yra uždrausta naudotis šiuo botu, nes jis yra juodajame sąraše",
 	"commands.blacklist.add.success": "<@%d> buvo įtrauktas į juodąjį sąrašą",
 	"commands.blacklist.remove.success": "<@%d> buvo pašalintas iš juodojo sąrašo",
 	"generic.title.add_admin": "Pridėti administratorių",
 	"generic.title.add_support": "Pridėti pagalbos narį",
 	"generic.title.remove_admin": "Pašalinti administratorių",
 	"generic.title.remove_support": "Pašalinti pagalbos narį",
-	"commands.addsupport.success": "Support representative added successfully: %s",
+	"commands.addsupport.success": "Palaikymo atstovas pridėtas sėkmingai: %s",
 	"generic.title.language": "Kalba",
-	"commands.removesupport.success": "Support representative removed successfully: %s",
-	"commands.addadmin.success": "Admin added successfully: %s",
-	"commands.removeadmin.success": "Admin removed successfully: %s",
+	"commands.removesupport.success": "Palaikymo atstovas pašalintas sėkmingai: %s",
+	"commands.addadmin.success": "Administratorius pridėtas sėkmingai: %s",
+	"commands.removeadmin.success": "Administratorius pašalintas sėkmingai: %s",
 	"generic.title.setup": "Konfiguruoti",
 	"generic.title.premium": "Premium",
 	"generic.title.panel": "Panelė",
@@ -149,10 +154,10 @@
 	"generic.title.claimed": "Apsiimtas bilietas",
 	"generic.title.unclaimed": "Neapsiimtas bilietas",
 	"generic.title.add": "Pridėti",
-	"commands.add.success": "<@%s> has been added to <#%d>",
-	"commands.add.role_thread": "Due to Discord limitations, roles cannot be added to thread tickets",
-	"commands.remove.success": "<@%s> has been removed from <#%d>",
-	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
+	"commands.add.success": "<#%s> buvo pridėtas prie <#%d>",
+	"commands.add.role_thread": "Dėl Discord ribojimų rolės negalima pridėti prie teminių bilietų",
+	"commands.remove.success": "<@%s> buvo pašalintas nuo <#%d>",
+	"commands.remove.role_thread": "Dėl Discord apribojimų rolės negali būti pašalinamos iš teminių bilietų",
 	"open.ratelimited": "Šiame serveryje bilietai buvo atidaryti per greitai",
 	"commands.claim.thread": "Dėl Discord apribojimų negalima apsiimti gijų",
 	"generic.join_support_server": "Prisijunkite į pagalbos serverį",
@@ -186,7 +191,7 @@
 		"switch_panel": {
 			"invalid_panel": "Netinkamas skydelis: turite pasirinkti vieną iš meniu",
 			"success": "Šį bilietą <@%d> perjungė į `%s` skydelį",
-			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
+			"non_thread_to_thread": "Jūs negalite pakeisti į skydelį kuris naudoja gijas nuo bilieto kuris nenaudoja gijų"
 		},
 		"blacklist": {
 			"staff": "Komandos nariai negali būti įtraukti į juodąjį sąrašą",
@@ -278,7 +283,7 @@
 			"added_to_existing": "Jūs buvote pridėtas į giją <#%d>",
 			"thread_name": "užrašai",
 			"created": "Užrašų gija buvo sukurta bilietui: <#%d>",
-			"channel_mode_only": "Note threads are only supported in channel mode"
+			"channel_mode_only": "Pastabų gijos yra palaikomos tik kanalo režimu"
 		},
 		"rename": {
 			"ratelimited": "Dėl Discord limitų bilietai gali būti pervadinti du kartus per 10 minučių"
@@ -304,20 +309,21 @@
 			"buttons": {
 				"accept": "Priimti ir uždaryti",
 				"deny": "Atmesti ir palikti atidaryta"
+		}
 		},
 		"viewstaff": {
-			"title": "Staff",
+			"title": "Personalas",
 			"admin": {
-				"users": "Admin Users",
-				"roles": "Admin Roles",
-				"no_users": "No admin users",
-				"no_roles": "No admin roles"
+				"users": "Administratorių Naudotojai",
+				"roles": "Administratorių Rolės",
+				"no_users": "Nėra Administratorių Naudotojų",
+				"no_roles": "Nėra administratorių rolių"
 			},
 			"support": {
-				"users": "Support Users",
-				"roles": "Support Roles",
-				"no_roles": "No support roles",
-				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
+				"users": "Pagalbos Naudotojai",
+				"roles": "Pagalbos Rolės",
+				"no_roles": "Nėra pagalbos rolių",
+				"users_warning": "-# **Įspėjimas:** Naudotojai pagalbos komandose dabar nebenaudojami. Prašome pereiti prie rolės naudojimo."
 			}
 		}
 	},
@@ -339,10 +345,10 @@
 		"reopen": "Atidaro iš naujo bilietą, kuris anksčiau buvo uždarytas",
 		"notes": "Sukuria giją privačiai diskusijai tarp pagalbos narių"
 	},
-	"<@&%d> has been unblcommands": {
+	"commands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": "<@&%d> buvo pašalintas iš juodojo sąrašo"
+				"success": "<@&%d> buvo pašalintas iš juodojo sąrašo"
 			}
 		}
 	},
@@ -379,113 +385,113 @@
 		}
 	},
 	"gdpr": {
-		"intro": "Select the type of GDPR request you would like to make:",
+		"intro": "Pasirinkite GDPR užklausos tipą, kurį norite pateikti:",
 		"section": {
-			"transcript": "### **Transcript Deletion Options**\n-# _Delete transcripts from servers you own_",
-			"message": "### **Message Anonymization Options**\n-# _Anonymize your messages from transcripts in selected servers_"
+			"transcript": "### **Transkriptų šalinimo parinktys**\n\n-# _Šalinti transkriptus iš serverių, kurių savininkas esate_",
+			"message": "### **Žinučių anonimizavimo parinktys**\n\n-# _Anonimizuoti savo žinutes transkriptuose pasirinktuose serveriuose_"
 		},
-		"warning": "### **Important Information**\n* Deletion is **permanent** and cannot be undone\n* You can only delete transcripts from servers **you** own\n* Only **your** messages can be anonymized in transcripts\n* The request may take up to **30 days** to complete\n* Your request will be processed in a **queue**",
-		"resources": "### **Resources**\n[What is GDPR?](%s)\n[Right to Erasure](%s)\n[Right of Access](%s)",
+		"warning": "### **Svarbi Informacija**\n* Šalinimas yra **galutinis** ir jo negalima atšaukti\n* Galite šalinti transkriptus tik iš serverių, kurių savininkas esate **jūs**\n* Tik **jūsų** žinutės gali būti anonimizuotos transkriptuose\n* Užklausa gali būti apdorota per iki **30 dienų**\n* Jūsų užklausa bus apdorojama **eilėje**",
+		"resources": "### **Šaltiniai**\n[Kas yra GDRP?](%s)\n[Teisė į pašalinimą](%s)\n[Prieigos teisė](%s)",
 		"button": {
-			"all_transcripts": "All transcripts from servers",
-			"specific_transcripts": "Specific transcripts",
-			"all_messages": "All your messages in servers",
-			"specific_messages": "Your messages in specific tickets"
+			"all_transcripts": "Visi transkriptai iš serverių",
+			"specific_transcripts": "Konkretūs transkriptai",
+			"all_messages": "Visos jūsų žinutės serveriuose",
+			"specific_messages": "Jūsų žinutės konkrečiuose bilietuose"
 		},
-		"language_option": "Language",
+		"language_option": "Kalba",
 		"modal": {
-			"all_transcripts": "Delete All Transcripts from Servers",
-			"specific_transcripts": "Delete Specific Transcripts",
-			"all_messages": "Anonymize Your Messages in Servers",
-			"specific_messages": "Anonymize Your Messages in Specific Tickets",
-			"select_server": "Select a server",
-			"select_servers": "Select one or more servers",
+			"all_transcripts": "Pašalinti visus transkriptus iš serverių",
+			"specific_transcripts": "Pašalinti konkrečius transkriptus",
+			"all_messages": "Anonimizuoti savo žinutes serveriuose",
+			"specific_messages": "Anonimizuoti savo žinutes konkrečiose bilietus",
+			"select_server": "Pasirinkite serverį",
+			"select_servers": "Pasirinkite vieną ar daugiau serverių",
 			"server_id": {
-				"label": "Server ID",
-				"placeholder": "Enter the server ID"
+				"label": "Serverio ID",
+				"placeholder": "Įveskite serverio ID"
 			},
 			"server_ids": {
-				"label": "Server IDs",
-				"placeholder": "Enter server IDs separated by commas (e.g., 1071167333265047653, 1412752753348055111)"
+				"label": "Serverių ID",
+				"placeholder": "Įveskite serverių ID atskirta kableliais (pvz., 1071167333265047653, 1412752753348055111)"
 			},
 			"ticket_ids": {
-				"label": "Ticket IDs",
-				"placeholder": "Enter ticket IDs separated by commas (e.g., 123, 456, 789)"
+				"label": "Bilietų ID",
+				"placeholder": "Įveskite bilietų ID atskirta kableliais (pvz., 123, 456, 789)"
 			}
 		},
 		"confirm": {
-			"title": "GDPR Confirmation Required",
-			"all_transcripts": "**Request Type:** Delete all transcripts from a server you own\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers you own\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts from server\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in the selected server\n**Server:** %s",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in the selected servers\n**Servers:**\n* %s",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
-			"warning": "\n\n⚠️ **Warning:** This action is permanent and cannot be undone.\n\nDo you understand and accept that this action is permanent?",
-			"button": "Confirm - I understand"
+			"title": "GDPR Reikalingas Patvirtinimas",
+			"all_transcripts": "**Užklausos Tipas:** Pašalinti visus transkriptus serveryje kuriame jūs esate savininkas\n**Serveris:** %s",
+			"all_transcripts_multi": "**Užklausos Tipas:** Pašalinti visus transkriptus serveriuose kuriuose jūs esate savininkas\n**Serveriai:**\n* %s",
+			"specific_transcripts": "**Prašymo Tipas:** Pašalinti konkrečius transkriptus serveryje\n**Serveris:** %s\n**Bilietų ID:** %s",
+			"all_messages": "**Prašymo Tipas:** Anonimizuoti visas jūsų žinutes pasirinktame serveryje\n**Serveris:** %s",
+			"all_messages_multi": "**Prašymo Tipas:** Anonimizuoti visas jūsų žinutes pasirinktame serveryje\n**Serveris:** %s",
+			"specific_messages": "**Prašymo Tipas:** Anonimizuoti jūsų žinutes konkrečiose bilietuose \n**Serveris:** %s\n**Bilietų ID:** %s",
+			"warning": "\n\n**⚠️ Įspėjimas:** šis veiksmas yra negrįžtamas ir negali būti atšauktas.\n\nAr suprantate ir sutinkate, kad šis veiksmas yra negrįžtamas?",
+			"button": "Patvirtinti - Aš suprantu"
 		},
 		"queued": {
-			"title": "GDPR Request Queued",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Ticket IDs:** %s",
-			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Ticket IDs:** %s",
-			"footer": "\n\nYour request has been queued for processing.\nProcessing may take some time depending on the number of transcripts."
+			"title": "GDRP Užklausa įtraukta į eilę",
+			"all_transcripts": "**Užklausos Tipas:** Pašalinti visus transkriptus serveryje \n**Serveris:** %s",
+			"all_transcripts_multi": "**Prašymo Tipas:** Pašalinti visus transkriptus nuo serverių\n**Serveriai:**\n* %s",
+			"specific_transcripts": "**Prašymo Tipas:** Pašalinti konkrečius transkirptus\n**Serveris** %s\n**Bilietų ID:** %s",
+			"all_messages": "**Prašymo Tipas:** Anonimizuoti visas jūsų žinutes serveryje\n**Serveris:** %s",
+			"all_messages_multi": "**Prašymo Tipas:** Anonimizuoti visas jūsų žinutes serveriuose\n**Serveriai:** \n* %s",
+			"specific_messages": "**Prašymo Tipas:** Anonimizuoti jūsų žinutes konkrečiose bilietuose\n**Serveris:** %s\n**Bilietų ID** %s",
+			"footer": "\n\nJūsų užklausa buvo įtraukta į apdorojimo eilę. Apdorojimas gali užtrukti šiek tiek laiko, priklausomai nuo transkripcijų skaičiaus."
 		},
 		"completed": {
-			"title": "GDPR Request Completed",
-			"all_transcripts": "**Request Type:** Delete all transcripts from server\n**Server:** %s\n**Transcripts Deleted:** %d",
-			"all_transcripts_multi": "**Request Type:** Delete all transcripts from servers\n**Servers:**\n* %s\n**Transcripts Deleted:** %d",
-			"specific_transcripts": "**Request Type:** Delete specific transcripts\n**Server:** %s\n**Transcripts Deleted:** %d",
-			"all_messages": "**Request Type:** Anonymize all your messages in server\n**Server:** %s\n**Messages Anonymized:** %d",
-			"all_messages_multi": "**Request Type:** Anonymize all your messages in servers\n**Servers:**\n* %s\n**Messages Anonymized:** %d",
-			"specific_messages": "**Request Type:** Anonymize your messages in specific tickets\n**Server:** %s\n**Messages Anonymized:** %d",
-			"error": "\n\n**⚠️ Error:** %s"
+			"title": "GDRP Užklausa Įvykdyta",
+			"all_transcripts": "**Užklausos Tipas:** Pašalinti visus transkriptus serveryje\n**Serveris:** %s\n**Transkriptų Pašalinta:** %d",
+			"all_transcripts_multi": "**Užklausos Tipas:** Pašalinti visus transkriptus serveriuose\n**Serveriai:**\n* %s\n**Transkriptų Pašalinta:** %d",
+			"specific_transcripts": "**Prašymo Tipas:** Pašalinti konkrečius transkirptus\n**Serveris** %s\n**Ištrinti transkriptai:** %d",
+			"all_messages": "**Prašymo Tipas:** Anonimizuoti visas jūsų žinutes serveryje\n**Serveris:** %s\n**Žinučių Anonimizuoti:** %d",
+			"all_messages_multi": "**Prašymo Tipas:** Anonimizuoti visas jūsų žinutes serveriuose\n**Serveriai:** \n* %s\n**Žinutės Anonimizuotos:** %d",
+			"specific_messages": "**Prašymo Tipas:** Anonimizuoti jūsų žinutes konkrečiose bilietuose \n**Serveris:** %s\n**Žinutės Anonimizuotos:** %d",
+			"error": "\n\n** ⚠️ Klaida.** %s"
 		},
 		"followup": {
-			"error": "⚠️ Your GDPR request encountered an error: %s",
-			"no_data": "ℹ️ Your GDPR request has been processed. No data was found.",
-			"success": "✅ Your GDPR request has been processed successfully."
+			"error": "⚠️ Jūsų GDPR užklausoje įvyko klaida: %s",
+			"no_data": "ℹ️ Jūsų GDPR užklausa buvo apdorota. Duomenų nerasta.",
+			"success": "✅ Jūsų GDRP užklausa buvo apdorota sėkmingai."
 		},
 		"error": {
-			"no_servers": "No servers found where you are the owner and have transcripts.",
-			"invalid_server_id": "Invalid server ID provided.",
-			"invalid_ticket_ids": "Invalid ticket IDs provided. Please enter numeric ticket IDs separated by commas (e.g., 123, 456, 789).",
-			"not_owner": "You must be the server owner to delete transcripts.",
-			"server_not_found": "Server not found.",
-			"queue_failed": "Failed to queue GDPR request. Please try again later.",
-			"worker_offline": "The GDPR processing service is currently unavailable. Please try again later or contact support if this issue persists."
+			"no_servers": "Nerasta serverių kuriuose jūs esate savininkas ir turi transkriptus.",
+			"invalid_server_id": "Neteisingas serverio ID įvestas.",
+			"invalid_ticket_ids": "Neteisingi bilietų ID įvesti. Prašau įvesti skaitinius bilietų ID atskirtus kableliu (pvz., 123, 456, 789).",
+			"not_owner": "Jūs turite būti serverio savininkas, kad pašalintumėte transkriptus.",
+			"server_not_found": "Serveris nerastas.",
+			"queue_failed": "Nepavyko įtraukti GDPR užklausos į eilę. Bandykite vėliau.",
+			"worker_offline": "GDPR apdorojimo paslauga šiuo metu neprieinama. Bandykite vėliau arba susisiekite su pagalba, jei problema išlieka."
 		}
 	},
 	"errors": {
-		"unknown_channel": "Could not find a required channel: it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all channel settings are configured correctly.",
-		"unknown_guild": "Could not find the server.",
-		"unknown_member": "The user could not be found. They may have left the server or been banned.",
-		"unknown_message": "The message you're trying to interact with has been deleted.\n\nPlease try the action again with a different message.",
-		"unknown_user": "user could not be found.",
-		"unknown_role": "The role required for this action no longer exists.\n\nPlease ask a server administrator to visit the [dashboard](%s) and reconfigure role settings.",
-		"unknown_category": "Could not find a required category: it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid channel category to this ticket panel.",
-		"unknown_interaction": "This interaction has expired.\n\nPlease try the action again.",
-		"max_webhooks": "The server has reached the maximum number of webhooks.\n\nPlease ask a server administrator to remove some unused webhooks and try again.",
-		"interaction_acknowledged": "This interaction has already been processed.\n\nIf you need to perform this action again, please start a new interaction.",
+		"unknown_channel": "Nepavyko rasti privalomo kanalo: jis tikriausiai buvo ištrintas.\n\nPrašome paprašyti serverio administratoriaus apsilankyti [valdymo skydelyje](%s) ir patikrinti, ar visi kanalo nustatymai yra tinkamai sukonfigūruoti.",
+		"unknown_guild": "Nebuvo rastas serveris.",
+		"unknown_member": "Vartotojo nepavyko rasti. Jis galėjo palikti serverį arba būti užblokuotas.",
+		"unknown_message": "Žinutė, su kuria bandote sąveikauti, buvo ištrinta.\n\nPrašome pabandyti atlikti veiksmą su kita žinute.",
+		"unknown_user": "vartotojas nebuvo rastas.",
+		"unknown_role": "Veiksmui atlikti reikalinga rolė nebeegzistuoja.\nPrašome paprašyti serverio administratoriaus apsilankyti [valdymo skydelyje](%s) ir iš naujo sukonfigūruoti rolės nustatymus.",
+		"unknown_category": "Nepavyko rasti reikalingos kategorijos: ji greičiausiai buvo ištrinta.\n\nPrašome paprašyti serverio administratoriaus apsilankyti [valdymo skydelyje](%s) ir priskirti galiojančią kanalo kategoriją šiam bilieto paneliui.",
+		"unknown_interaction": "Ši sąveika pasibaigė.\n\nPrašome bandyti veiksmą dar kartą.",
+		"max_webhooks": "Serveris pasiekė maksimalų leistiną žiniatinklio skaičių.\n\nPrašome paprašyti serverio administratoriaus pašalinti nenaudojamą žiniatinklį ir bandyti dar kartą.",
+		"interaction_acknowledged": "Ši sąveika jau buvo apdorota.\n\nJei norite atlikti šį veiksmą dar kartą, pradėkite naują sąveiką.",
 		"missing_permissions": {
-			"title": "I am missing the following permissions required to perform this action",
-			"body": "Please assign these permissions to the bot, or alternatively, the `Administrator` permission and try again.\nPlease visit our [docs](%s) for an explanation of why each permission is required."
+			"title": "Man trūksta šių leidimų, reikalingų šiam veiksmui atlikti",
+			"body": "Prašome suteikti šiuos leidimus botui arba, alternatyviai, leidimą `Administratorius`, ir bandyti dar kartą.\nDaugiau informacijos apie kiekvieno leidimo poreikį rasite mūsų [dokumentacijoje](%s)."
 		},
-		"invalid_length": "One or more fields are too short or too long.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all inputs and ensure all fields meet the required length constraints.",
-		"required_field": "A required field is missing or empty.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all required fields are filled out.",
-		"invalid_channel_type": "The channel type is invalid for this operation.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid channel to the ticket panel.",
-		"invalid_category": "The channel category is invalid, it must have been deleted.\n\nPlease ask a server administrator to visit the [dashboard](%s) and assign a valid category to the ticket panel.",
-		"invalid_id": "An invalid ID was provided in the bot configuration.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all category, channel, and role IDs are correct.",
-		"invalid_characters": "The input contains invalid characters.\n\nPlease use only letters, numbers, hyphens, and underscores.",
-		"invalid_choice": "An invalid option was provided.\n\nPlease ask a server administrator to visit the [dashboard](%s) and verify all settings are correct.",
-		"invalid_form": "The action could not be completed due to invalid input.",
-		"timed_out": "The operation timed out, please try again.",
-		"rate_limited": "You're being rate limited. Please try again %s.",
-		"rate_limited_global": "Discord is experiencing high load (global rate limit). Please try again %s.",
-		"general": "An error occurred while performing this action.",
-		"error_id": "Error ID"
+		"invalid_length": "Viena ar kelios sritys yra per trumpos arba per ilgos.\n\nPrašome paprašyti serverio administratoriaus apsilankyti [valdymo skydelyje](%s), patikrinti visus įvesties laukus ir įsitikinti, kad jų ilgis atitinka reikalavimus.",
+		"required_field": "Trūksta privalomos srities arba ji yra tuščia.\n\nPrašome paprašyti serverio administratoriaus apsilankyti [valdymo skydelyje](%s) ir įsitikinti, kad visos privalomos sritys yra užpildytos.",
+		"invalid_channel_type": "Šio kanalo tipas netinkamas šiai operacijai.\n\nPrašome paprašyti serverio administratoriaus apsilankyti [valdymo skydelyje](%s) ir priskirti galiojantį kanalą bilietų skydeliui.",
+		"invalid_category": "Kanalo kategorija yra netinkama, ji tikriausiai buvo ištrinta.\n\nPrašome paprašyti serverio administratoriaus apsilankyti [valdymo skydelyje](%s) ir priskirti galiojančią kategoriją bilietų skydeliui.",
+		"invalid_id": "Netinkamas ID buvo pateiktas roboto konfigūracijoje.\n\nPrašome paprašyti serverio administratoriaus apsilankyti [valdymo skydelyje](%s) ir patikrinti, ar visi kategorijų, kanalų ir vaidmenų ID yra teisingi.",
+		"invalid_characters": "Įvestyje yra netinkamų simbolių.\n\nNaudokite tik raides, skaičius, brūkšnelius ir pabraukimus.",
+		"invalid_choice": "Pateikta netinkama parinktis.\n\nPrašome paprašyti serverio administratoriaus apsilankyti [valdymo skydelyje](%s) ir patikrinti, ar visi nustatymai yra teisingi.",
+		"invalid_form": "Šis veiksmas negalėjo būti pabaigtas dėl neteisingo įvedimo.",
+		"timed_out": "Operacijos laikas baigėsi, prašome bandyti dar kartą.",
+		"rate_limited": "Jums taikomas užklausų ribojimas. Prašome bandyti dar kartą %s.",
+		"rate_limited_global": "Discord šiuo metu patiria didelę apkrovą (globalus užklausų limitas). Prašome bandyti dar kartą %s.",
+		"general": "Klaida nutiko atlikinėjant šį veiksmą.",
+		"error_id": "Klaidos ID"
 	}
 }

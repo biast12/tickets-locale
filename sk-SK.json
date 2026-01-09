@@ -43,10 +43,10 @@
 	"help.about": "Poskytuje informácie o botovi",
 	"help.add": "Pridá používateľa do tiketu",
 	"help.addadmin": "Udeľuje používateľovi alebo role oprávnenia správcu",
-	"help.addsupport": "Adds a role as a support representative",
+	"help.addsupport": "Pridáva rolu podpory / pracovníka zákazníckej podpory",
 	"help.admin": "Správa botov",
 	"help.admin.blacklist": "Čierna listina spolku, ktorý nesmie používať bota",
-	"help.admin.debug.server": "Debug a server",
+	"help.admin.debug.server": "Odstraňovať chyby na serveri",
 	"help.admin.generate_premium": "Generovanie prémiových kľúčov",
 	"help.admin.unblacklist": "Odstránenie spolku z čiernej listiny spolkov",
 	"help.blacklist": "Prepína, či môžu používatelia komunikovať s botom",
@@ -75,9 +75,9 @@
 	"help.unclaim": "Odstráni pohľadávku na aktuálnom tickete",
 	"help.viewstaff": "Zoznamy zamestnancov a rolí",
 	"help.vote": "Dáva vám odkaz na hlasovanie o bezplatné prémium",
-	"help.gdpr": "Manage your GDPR data requests",
+	"help.gdpr": "Spravujte svoje žiadosti o údaje podľa GDPR",
 	"open.success": "Otvorený nový ticket: %s",
-	"open.outside_support_hours": "This panel is currently closed. Please try again during our support hours.",
+	"open.outside_support_hours": "Tento panel je momentálne zatvorený. Skúste to prosím znova počas našich hodín podpory.",
 	"setup.auto.category.failure": "Chýba mi oprávnenie `Manage Channels`",
 	"setup.auto.category.success": "Kategória tickety vytvorená",
 	"setup.auto.completed": "Nastavenie dokončené! Kliknutím na [here](https://dashboard.tickets.bot/manage/%d/panels) nastavte reakčný panel a pridajte roly <@&%d> a <@&%d> svojim zamestnancom.",
@@ -100,6 +100,11 @@
 	"commands.open.from.moved": "Konverzácia bola presunutá do ticketu (<#%d>)",
 	"help.close_request": "Odošle správu so žiadosťou, aby používateľ potvrdil, že je možné ticket uzavrieť",
 	"close.reason_too_long": "Dôvod nemôže byť dlhší ako 255 znakov",
+	"commands.close_request.success": "Požiadavka na uzavretie bola úspešne odoslaná",
+	"commands.close_request.no_reason": "<@%d> požiadal o uzavretie tohto tipu.\n\nProsím, prijmite alebo zamietnite ho pomocou tlačidiel nižšie.",
+	"commands.close_request.with_reason": "<@%d> požiadal o uzavretie tohto tipu. Dôvod:\n```\n%s\n```\nProsím, prijmite alebo zamietnite ho pomocou tlačidiel nižšie.",
+	"commands.close_request.no_permission": "Na žiadosť o uzavretie môže reagovať len používateľ, ktorý lístok otvoril",
+	"commands.close_request.denied": "<@%d> zamietol žiadosť o uzavretie",
 	"generic.error": "Chyba",
 	"feedback.disabled": "Tento server má vypnutú spätnú väzbu",
 	"feedback.success": "Vaša spätná väzba bola zaznamenaná",
@@ -119,23 +124,23 @@
 	"generic.title.invite": "Pozvánka",
 	"generic.title.close": "Uzavrieť",
 	"generic.title.claim": "Nárok",
-	"generic.title.unclaim": "Unclaim",
+	"generic.title.unclaim": "Uvoľniť",
 	"generic.title.blacklisted": "Na čiernej listine",
 	"generic.title.blacklist": "Čierna listina",
 	"generic.error.blacklisted": "Ste na čiernej listine tohto servera",
-	"generic.error.guild_blacklisted": "This server is blacklisted from using this bot",
-	"generic.error.user_blacklisted": "You are blacklisted from using this bot",
+	"generic.error.guild_blacklisted": "Tento server je na čiernej listine a nemôže používať tohto bota",
+	"generic.error.user_blacklisted": "Tvoje konto je na čiernej listine a nemôže používať tohto bota",
 	"commands.blacklist.add.success": "<@%d> bol zaradený na čiernu listinu",
 	"commands.blacklist.remove.success": "<@%d> bol odstránený z čiernej listiny",
 	"generic.title.add_admin": "Pridať správcu",
 	"generic.title.add_support": "Pridať podporu",
 	"generic.title.remove_admin": "Odstránenie správcu",
 	"generic.title.remove_support": "Odstránenie podpory",
-	"commands.addsupport.success": "Support representative added successfully: %s",
+	"commands.addsupport.success": "Zástupca podpory úspešne pridaný: %s",
 	"generic.title.language": "Jazyk",
-	"commands.removesupport.success": "Support representative removed successfully: %s",
-	"commands.addadmin.success": "Admin added successfully: %s",
-	"commands.removeadmin.success": "Admin removed successfully: %s",
+	"commands.removesupport.success": "Zástupca podpory úspešne odstránený: %s",
+	"commands.addadmin.success": "Správca úspešne pridaný: %s",
+	"commands.removeadmin.success": "Správca úspešne odstránený: %s",
 	"generic.title.setup": "Nastavenie",
 	"generic.title.premium": "Prémium",
 	"generic.title.panel": "Panel",
@@ -149,10 +154,10 @@
 	"generic.title.claimed": "Prevzatý ticket",
 	"generic.title.unclaimed": "Neprevziatý ticket",
 	"generic.title.add": "Pridať",
-	"commands.add.success": "<@%s> has been added to <#%d>",
-	"commands.add.role_thread": "Due to Discord limitations, roles cannot be added to thread tickets",
-	"commands.remove.success": "<@%s> has been removed from <#%d>",
-	"commands.remove.role_thread": "Due to Discord limitations, roles cannot be removed from thread tickets",
+	"commands.add.success": "<@%s> bol pridaný do <#%d>",
+	"commands.add.role_thread": "Z dôvodu technických obmedzení Discordu nie je možné priraďovať roly k ticketom vo vláknach",
+	"commands.remove.success": "<@%s> bol odstránený z <#%d>",
+	"commands.remove.role_thread": "Kvôli obmedzeniam Discordu nie je možné odobrať roly z ticket vlákien",
 	"open.ratelimited": "Tickety sa na tomto serveri otvárajú príliš rýchlo",
 	"commands.claim.thread": "Kvôli obmedzeniam Discordu tvrdenie nepodporuje vlákna",
 	"generic.join_support_server": "Pripojiť sa k serveru podpory",
@@ -186,7 +191,7 @@
 		"switch_panel": {
 			"invalid_panel": "Neplatný panel: Musíte vybrať jeden z rozbaľovacieho zoznamu",
 			"success": "Tento ticket bol prepnutý na panel `%s` podľa <@%d>",
-			"non_thread_to_thread": "You cannot switch to a panel that uses threads from a non-thread ticket"
+			"non_thread_to_thread": "Nemôžete prepnúť na panel, ktorý používa vlákna, z ticketu, ktorý vlákna nepodporuje"
 		},
 		"blacklist": {
 			"staff": "Zamestnanci nemôžu byť zaradení na čiernu listinu",
@@ -278,7 +283,7 @@
 			"added_to_existing": "Boli ste pridaní do existujúceho vlákna poznámok: <#%d>",
 			"thread_name": "poznámky",
 			"created": "Pre tento lístok bolo vytvorené vlákno poznámok: <#%d>",
-			"channel_mode_only": "Note threads are only supported in channel mode"
+			"channel_mode_only": "Vlákna sú podporované len v režime kanála"
 		},
 		"rename": {
 			"ratelimited": "Vzhľadom na obmedzenia spoločnosti Discord je možné tickety premenovať len dvakrát za 10 minút."
@@ -304,20 +309,21 @@
 			"buttons": {
 				"accept": "Prijatie a zatvorenie",
 				"deny": "Odmietnuť a ponechať otvorené"
+		}
 		},
 		"viewstaff": {
-			"title": "Staff",
+			"title": "Personál",
 			"admin": {
-				"users": "Admin Users",
-				"roles": "Admin Roles",
-				"no_users": "No admin users",
-				"no_roles": "No admin roles"
+				"users": "Administrátori",
+				"roles": "Administrátorské role",
+				"no_users": "Žiadni administrátori",
+				"no_roles": "Žiadne administrátorské roly"
 			},
 			"support": {
-				"users": "Support Users",
-				"roles": "Support Roles",
-				"no_roles": "No support roles",
-				"users_warning": "-# **Warning:** Users in support teams are now deprecated. Please migrate to roles."
+				"users": "Používatelia podpory",
+				"roles": "Podporné roly",
+				"no_roles": "Žiadne podporné roly",
+				"users_warning": "-# **Upozornenie:** Používatelia v podporných tímoch už nie sú odporúčaní na používanie. Prejdite na roly."
 			}
 		}
 	},
@@ -339,10 +345,10 @@
 		"reopen": "Znovu otvorí ticket, ktorý bol predtým zatvorený",
 		"notes": "Vytvorí vlákno na súkromnú diskusiu medzi zástupcami podpory"
 	},
-	"<@&%d> has been unblcommands": {
+	"commands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": "<@&%d> bol vymazaný z čiernej listiny"
+				"success": "<@&%d> bol vymazaný z čiernej listiny"
 			}
 		}
 	},
@@ -379,34 +385,34 @@
 		}
 	},
 	"gdpr": {
-		"intro": "Select the type of GDPR request you would like to make:",
+		"intro": "Vyberte typ žiadosti GDPR, ktorú chcete podať:",
 		"section": {
-			"transcript": "### **Transcript Deletion Options**\n-# _Delete transcripts from servers you own_",
-			"message": "### **Message Anonymization Options**\n-# _Anonymize your messages from transcripts in selected servers_"
+			"transcript": "### **Možnosti odstránenia prepisov**\n-# _Odstránenie prepisov zo serverov, ktoré vlastníte_",
+			"message": "### **Možnosti anonymizácie správ**\n-# _Anonymizujte svoje správy z prepisov na vybraných serveroch_"
 		},
-		"warning": "### **Important Information**\n* Deletion is **permanent** and cannot be undone\n* You can only delete transcripts from servers **you** own\n* Only **your** messages can be anonymized in transcripts\n* The request may take up to **30 days** to complete\n* Your request will be processed in a **queue**",
-		"resources": "### **Resources**\n[What is GDPR?](%s)\n[Right to Erasure](%s)\n[Right of Access](%s)",
+		"warning": "### **Dôležité informácie**\n* Vymazanie je **trvalé** a nedá sa vrátiť späť\n* Prepisy môžete vymazať iba zo serverov, ktoré **vlastníte**\n* V prepisoch je možné anonymizovať iba **vaše** správy\n* Vybavenie žiadosti môže trvať až **30 dní**\n* Vaša žiadosť bude spracovaná v **poradí**",
+		"resources": "### **Zdroje**\n[Čo je GDPR?](%s)\n[Právo na vymazanie](%s)\n[Právo na prístup](%s)",
 		"button": {
-			"all_transcripts": "All transcripts from servers",
-			"specific_transcripts": "Specific transcripts",
-			"all_messages": "All your messages in servers",
-			"specific_messages": "Your messages in specific tickets"
+			"all_transcripts": "Všetky prepisy zo serverov",
+			"specific_transcripts": "Konkrétne prepisy",
+			"all_messages": "Všetky vaše správy na serveroch",
+			"specific_messages": "Vaše správy v konkrétnych tiketoch"
 		},
-		"language_option": "Language",
+		"language_option": "Jazyk",
 		"modal": {
-			"all_transcripts": "Delete All Transcripts from Servers",
-			"specific_transcripts": "Delete Specific Transcripts",
-			"all_messages": "Anonymize Your Messages in Servers",
-			"specific_messages": "Anonymize Your Messages in Specific Tickets",
-			"select_server": "Select a server",
-			"select_servers": "Select one or more servers",
+			"all_transcripts": "Vymazať všetky prepisy zo serverov",
+			"specific_transcripts": "Vymazať konkrétne prepisy",
+			"all_messages": "Anonymizovať vaše správy na serveroch",
+			"specific_messages": "Anonymizovať vaše správy v konkrétnych tiketoch",
+			"select_server": "Vyberte server",
+			"select_servers": "Vyberte jeden alebo viac serverov",
 			"server_id": {
 				"label": "Server ID",
-				"placeholder": "Enter the server ID"
+				"placeholder": "Zadajte ID servera"
 			},
 			"server_ids": {
-				"label": "Server IDs",
-				"placeholder": "Enter server IDs separated by commas (e.g., 1071167333265047653, 1412752753348055111)"
+				"label": "ID serverov",
+				"placeholder": "Zadajte ID serverov oddelené čiarkami (napr. 1071167333265047653, 1412752753348055111)"
 			},
 			"ticket_ids": {
 				"label": "Ticket IDs",
