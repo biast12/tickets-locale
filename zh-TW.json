@@ -304,6 +304,7 @@
 			"buttons": {
 				"accept": "允許關閉客服單",
 				"deny": "拒絕關閉客服單"
+			}
 		},
 		"viewstaff": {
 			"title": "Staff",

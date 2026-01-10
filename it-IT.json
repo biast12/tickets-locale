@@ -304,6 +304,7 @@
 			"buttons": {
 				"accept": "Accetta e chiudi",
 				"deny": "Rifiuta e mantieni aperto"
+			}
 		},
 		"viewstaff": {
 			"title": "Staff",

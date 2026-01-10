@@ -304,6 +304,7 @@
 			"buttons": {
 				"accept": "Aksepter & Lukk",
 				"deny": "Avslå & Hold åpen"
+			}
 		},
 		"viewstaff": {
 			"title": "Staff",

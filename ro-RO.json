@@ -304,6 +304,7 @@
 			"buttons": {
 				"accept": "Acceptă și închide",
 				"deny": "Refuză și ține deschis"
+			}
 		},
 		"viewstaff": {
 			"title": "Staff",

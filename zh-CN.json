@@ -304,6 +304,7 @@
 			"buttons": {
 				"accept": "接受并关闭",
 				"deny": "拒绝并保持开启"
+			}
 		},
 		"viewstaff": {
 			"title": "工作人员",

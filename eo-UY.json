@@ -304,6 +304,7 @@
 			"buttons": {
 				"accept": "Akcepti & Fermi",
 				"deny": "Malakcepti & Lasu Malfermita"
+			}
 		},
 		"viewstaff": {
 			"title": "Staff",

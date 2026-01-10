@@ -298,12 +298,10 @@
 			}
 		},
 		"close_request": {
-			"success": "Close request was sent successfully",
-			"no_permission": "Only the user who opened the ticket can respond to the close request",
-			"denied": "<@%d> denied the close request.",
 			"buttons": {
 				"accept": "Accept & Close",
 				"deny": "Deny & Keep Open"
+			}
 		},
 		"viewstaff": {
 			"title": "Staff",

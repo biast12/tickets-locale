@@ -100,11 +100,6 @@
 	"commands.open.from.moved": "Vestlus oli lükatud piletisse (<#%d>)",
 	"help.close_request": "Saadab kirja, mis küsib et kasutaja kinnitaks kas abipileti võib kinni panna",
 	"close.reason_too_long": "Põhjus ei saa olla pikem kui 255 tähemärki",
-	"commands.close_request.success": "Kinnitus soov saadeti edukalt",
-	"commands.close_request.no_reason": "<@%d> on palunud et abipilet pannakse kinni\n\nLubage või keelake kasutades alumisi nuppe.",
-	"commands.close_request.with_reason": "<@%d> on palunud et abipilet pannakse kinni. Põhjus:\n```\n%s\n```\nLubage või keelake kasutades alumisi nuppe.",
-	"commands.close_request.no_permission": "Ainult kasutaja kes pileti avas saab vastata kinni panemise soovile",
-	"commands.close_request.denied": "<@%d> keelas kinni panemise soovi",
 	"generic.error": "Viga",
 	"feedback.disabled": "Selle serveri tagasiside on maha võetud",
 	"feedback.success": "Sinu tagasiside on kirja pandud",
@@ -303,13 +298,15 @@
 			}
 		},
 		"close_request": {
-			"success": "Close request was sent successfully",
+			"success": "Kinnitus soov saadeti edukalt",
+			"no_reason": "<@%d> on palunud et abipilet pannakse kinni\n\nLubage või keelake kasutades alumisi nuppe.",
+			"with_reason": "<@%d> on palunud et abipilet pannakse kinni. Põhjus:\n```\n%s\n```\nLubage või keelake kasutades alumisi nuppe.",
 			"no_permission": "Ainult kasutaja kes pileti avas saab vastata kinni panemise soovile",
-			"denied": "<@%d> keelas kinni panemise soovi.",
+			"denied": "<@%d> keelas kinni panemise soovi",
 			"buttons": {
 				"accept": "Aktsepteeri & Sulge",
 				"deny": "Keela & Hoia Lahti"
-		}
+			}
 		},
 		"viewstaff": {
 			"title": "Töötaja",
@@ -344,15 +341,8 @@
 		"on_call": "Paneb sind \"on call\", et sind oleks võimalik lisada ja mentionida uutes abipiletites",
 		"reopen": "Avab uuesti abipileti mis oli varem suletud",
 		"notes": "Teeb threadi privaatseteks vestlusteks abipersonaalide vahel"
-	},
-	"commands": {
-		"blacklist": {
-			"remove_role": {
-				"success": "<@&%d> on mustast nimekirjast välja võetud"
-			}
-		}
-	},
-	"setup": {
+	}
+,	"setup": {
 		"auto": {
 			"docs": "Tahad uurida rohkem? Meie [dokumenteerimine](https://docs.tickets.bot) õpetab sulle kuidas konfigureerida igat osa botist!"
 		},

@@ -304,6 +304,7 @@
 			"buttons": {
 				"accept": "Прихвати и затвори",
 				"deny": "Негирај и остани отворен"
+			}
 		},
 		"viewstaff": {
 			"title": "Staff",

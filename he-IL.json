@@ -304,6 +304,7 @@
 			"buttons": {
 				"accept": "אשר & סגור",
 				"deny": "דחה & תמשיך לפתוח"
+			}
 		},
 		"viewstaff": {
 			"title": "Staff",

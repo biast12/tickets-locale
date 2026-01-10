@@ -304,6 +304,7 @@
 			"buttons": {
 				"accept": "Accepteren & Sluiten",
 				"deny": "Weigeren en open houden"
+			}
 		},
 		"viewstaff": {
 			"title": "Staff",

@@ -100,11 +100,6 @@
 	"commands.open.from.moved": "Razgovor je premješten u tiket (<#%d>)",
 	"help.close_request": "Šalje poruku tražeći od korisnika potvrdu da se tiket može zatvoriti",
 	"close.reason_too_long": "Razlog ne može biti dulji od 255 znakova",
-	"commands.close_request.success": "Zahtjev za zatvaranje uspješno je poslan",
-	"commands.close_request.no_reason": "<@%d> je zatražio zatvaranje ovog tiketa.\n\nPrihvatite ili odbijte korištenjem donjih gumba.",
-	"commands.close_request.with_reason": "<@%d> je zatražio zatvaranje ovog tiketa. Razlog:\n```\n%s\n```\nPrihvatite ili odbijte korištenjem donjih gumba.",
-	"commands.close_request.no_permission": "Na zahtjev za zatvaranje može odgovoriti samo korisnik koji je otvorio kartu",
-	"commands.close_request.denied": "<@%d> je odbio zahtjev za zatvaranje",
 	"generic.error": "Pogreška",
 	"feedback.disabled": "Ovaj poslužitelj ima onemogućene povratne informacije",
 	"feedback.success": "Vaše povratne informacije su zabilježene",
@@ -303,13 +298,15 @@
 			}
 		},
 		"close_request": {
-			"success": "Close request was sent successfully",
+			"success": "Zahtjev za zatvaranje uspješno je poslan",
+			"no_reason": "<@%d> je zatražio zatvaranje ovog tiketa.\n\nPrihvatite ili odbijte korištenjem donjih gumba.",
+			"with_reason": "<@%d> je zatražio zatvaranje ovog tiketa. Razlog:\n```\n%s\n```\nPrihvatite ili odbijte korištenjem donjih gumba.",
 			"no_permission": "Na zahtjev za zatvaranje može odgovoriti samo korisnik koji je otvorio kartu",
-			"denied": "<@%d> je odbio zahtjev za zatvaranje.",
+			"denied": "<@%d> je odbio zahtjev za zatvaranje",
 			"buttons": {
 				"accept": "Prihvati i zatvori",
 				"deny": "Odbij i ostavi otvoreno"
-		}
+			}
 		},
 		"viewstaff": {
 			"title": "Staff",
@@ -344,15 +341,8 @@
 		"on_call": "Označava vas kao dežurnog, za dodavanje i ping u svim novim kartama",
 		"reopen": "Ponovno otvara tiket koji je prethodno bio zatvoren",
 		"notes": "Stvara nit za privatnu raspravu između predstavnika podrške"
-	},
-	"commands": {
-		"blacklist": {
-			"remove_role": {
-				"success": "<@&%d> više nije blacklist-an"
-			}
-		}
-	},
-	"setup": {
+	}
+,	"setup": {
 		"auto": {
 			"docs": "Želite li istražiti više? Naša [dokumentacija](https://docs.tickets.bot) će vas naučiti kako konfigurirati svaki aspekt bota!"
 		},

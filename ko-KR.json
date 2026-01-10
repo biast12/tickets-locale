@@ -304,6 +304,7 @@
 			"buttons": {
 				"accept": "수락및 닫기",
 				"deny": "거부및 오픈 유지"
+			}
 		},
 		"viewstaff": {
 			"title": "Staff",

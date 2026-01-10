@@ -304,6 +304,7 @@
 			"buttons": {
 				"accept": "Hyväksy Ja Sulje",
 				"deny": "Hylkää & Pidä Avattuna"
+			}
 		},
 		"viewstaff": {
 			"title": "Staff",

@@ -304,6 +304,7 @@
 			"buttons": {
 				"accept": "Akzeptiere & Schlüsse",
 				"deny": "Ablehne & Offe Lah"
+			}
 		},
 		"viewstaff": {
 			"title": "Mitarbeiter",

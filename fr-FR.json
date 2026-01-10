@@ -304,6 +304,7 @@
 			"buttons": {
 				"accept": "Accepter et fermer",
 				"deny": "Refuser et garder ouvert"
+			}
 		},
 		"viewstaff": {
 			"title": "Personnel",

@@ -298,12 +298,10 @@
 			}
 		},
 		"close_request": {
-			"success": "Close request was sent successfully",
-			"no_permission": "Só o utilizador que abriu este bilhete pode responder ao pedido de encerramento",
-			"denied": "<@%d> recusou o pedido de encerramento.",
 			"buttons": {
 				"accept": "Aceitar & Fechar",
 				"deny": "Recusar & Continuar Aberto"
+			}
 		},
 		"viewstaff": {
 			"title": "Staff",

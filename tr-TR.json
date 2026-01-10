@@ -100,11 +100,6 @@
 	"commands.open.from.moved": "Görüşme şu bilete taşındı: (<#%d>)",
 	"help.close_request": "Kullanıcıdan biletin kapatılabileceğini onaylamasını isteyen bir mesaj gönderir",
 	"close.reason_too_long": "Talebi kapatma nedeni 255 karakterden uzun olamaz",
-	"commands.close_request.success": "Kapatma talebi başarıyla gönderildi",
-	"commands.close_request.no_reason": "<@%d> Bu biletin kapatılmasını istedi.\n\nLütfen aşağıdaki butonları kullanarak onay verin yada reddedin.",
-	"commands.close_request.with_reason": "<@%d>, biletin kapatılmasını istedi. Sebep:\n```\n%s\n```\nLütfen aşağıdaki butonları kullanarak onay verin ya da reddedin.",
-	"commands.close_request.no_permission": "Destek talebini kapatma isteğine sadece talebi açan kullanıcı yanıt verebilir",
-	"commands.close_request.denied": "<@%d>, destek talebini kapatma isteğini reddetti",
 	"generic.error": "Hata",
 	"feedback.disabled": "Bu sunucuda geri bildirim devre dışı bırakıldı",
 	"feedback.success": "Geri bildiriminiz kaydedildi",
@@ -303,13 +298,15 @@
 			}
 		},
 		"close_request": {
-			"success": "Close request was sent successfully",
+			"success": "Kapatma talebi başarıyla gönderildi",
+			"no_reason": "<@%d> Bu biletin kapatılmasını istedi.\n\nLütfen aşağıdaki butonları kullanarak onay verin yada reddedin.",
+			"with_reason": "<@%d>, biletin kapatılmasını istedi. Sebep:\n```\n%s\n```\nLütfen aşağıdaki butonları kullanarak onay verin ya da reddedin.",
 			"no_permission": "Destek talebini kapatma isteğine sadece talebi açan kullanıcı yanıt verebilir",
-			"denied": "<@%d>, destek talebini kapatma isteğini reddetti.",
+			"denied": "<@%d>, destek talebini kapatma isteğini reddetti",
 			"buttons": {
 				"accept": "Kabul et ve kapat",
 				"deny": "Reddet ve açık tut"
-		}
+			}
 		},
 		"viewstaff": {
 			"title": "Destek Ekibi",
@@ -344,15 +341,8 @@
 		"on_call": "Tüm yeni biletlere eklenmek ve bildirim almak üzere sizi görev başında olarak belirler",
 		"reopen": "Daha önceden kapatılmış bir bileti yeniden açar",
 		"notes": "Destek temsilcileri arasında özel tartışma için bir konu başlığı oluşturur"
-	},
-	"commands": {
-		"blacklist": {
-			"remove_role": {
-				"success": "<@&%d>, kara listeden kaldırıldı"
-			}
-		}
-	},
-	"setup": {
+	}
+,	"setup": {
 		"auto": {
 			"docs": "Daha fazlasını keşfetmek ister misiniz? [Belgeler](https://docs.tickets.bot) size, botun her yönünü nasıl yapılandırılacağını öğretecek!"
 		},

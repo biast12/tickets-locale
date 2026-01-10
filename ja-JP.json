@@ -304,6 +304,7 @@
 			"buttons": {
 				"accept": "承諾して閉じる",
 				"deny": "拒否して開いたままにする"
+			}
 		},
 		"viewstaff": {
 			"title": "Staff",

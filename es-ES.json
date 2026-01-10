@@ -100,11 +100,6 @@
 	"commands.open.from.moved": "La conversación se ha movido a un ticket (<#%d>)",
 	"help.close_request": "Envía un mensaje pidiendo al usuario que confirme que el ticket puede cerrarse",
 	"close.reason_too_long": "La razón no puede tener una longitud superior a 255 caracteres",
-	"commands.close_request.success": "La solicitud de cierre fue enviada con éxito",
-	"commands.close_request.no_reason": "<@%d> ha solicitado cerrar este ticket.\n\nPor favor acepte o niegue usando los botones de abajo.",
-	"commands.close_request.with_reason": "<@%d> ha solicitado cerrar este ticket. Razón:\n```\n%s\n```\nPor favor acepte o niegue usando los botones de abajo.",
-	"commands.close_request.no_permission": "Solo el usuario que abrió el ticket puede responder a la solicitud de cierre",
-	"commands.close_request.denied": "<@%d> rechazó la solicitud de cierre",
 	"generic.error": "Error",
 	"feedback.disabled": "Este servidor tiene el feedback deshabilitado",
 	"feedback.success": "Tu feedback ha sido registrado",
@@ -303,12 +298,15 @@
 			}
 		},
 		"close_request": {
-			"success": "Close request was sent successfully",
+			"success": "La solicitud de cierre fue enviada con éxito",
+			"no_reason": "<@%d> ha solicitado cerrar este ticket.\n\nPor favor acepte o niegue usando los botones de abajo.",
+			"with_reason": "<@%d> ha solicitado cerrar este ticket. Razón:\n```\n%s\n```\nPor favor acepte o niegue usando los botones de abajo.",
 			"no_permission": "Solo el usuario que abrió el ticket puede responder a la solicitud de cierre",
-			"denied": "<@%d> rechazó la solicitud de cierre.",
+			"denied": "<@%d> rechazó la solicitud de cierre",
 			"buttons": {
 				"accept": "Aceptar y cerrar",
 				"deny": "Rechazar y mantener abierto"
+			}
 		},
 		"viewstaff": {
 			"title": "Staff",

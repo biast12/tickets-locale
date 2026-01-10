@@ -304,6 +304,7 @@
 			"buttons": {
 				"accept": "Elfogad & lezár",
 				"deny": "Elutasít & maradjon nyitva"
+			}
 		},
 		"viewstaff": {
 			"title": "Staff",
