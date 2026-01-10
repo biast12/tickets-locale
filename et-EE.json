@@ -341,8 +341,15 @@
 		"on_call": "Paneb sind \"on call\", et sind oleks võimalik lisada ja mentionida uutes abipiletites",
 		"reopen": "Avab uuesti abipileti mis oli varem suletud",
 		"notes": "Teeb threadi privaatseteks vestlusteks abipersonaalide vahel"
-	}
-,	"setup": {
+	},
+	"<@&%d> has been unblcommands": {
+		"blacklist": {
+			"remove_role": {
+				"successcklisted": "<@&%d> on mustast nimekirjast välja võetud"
+			}
+		}
+	},
+	"setup": {
 		"auto": {
 			"docs": "Tahad uurida rohkem? Meie [dokumenteerimine](https://docs.tickets.bot) õpetab sulle kuidas konfigureerida igat osa botist!"
 		},

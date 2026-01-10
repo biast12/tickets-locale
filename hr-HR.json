@@ -341,8 +341,15 @@
 		"on_call": "Označava vas kao dežurnog, za dodavanje i ping u svim novim kartama",
 		"reopen": "Ponovno otvara tiket koji je prethodno bio zatvoren",
 		"notes": "Stvara nit za privatnu raspravu između predstavnika podrške"
-	}
-,	"setup": {
+	},
+	"<@&%d> has been unblcommands": {
+		"blacklist": {
+			"remove_role": {
+				"successcklisted": "<@&%d> više nije blacklist-an"
+			}
+		}
+	},
+	"setup": {
 		"auto": {
 			"docs": "Želite li istražiti više? Naša [dokumentacija](https://docs.tickets.bot) će vas naučiti kako konfigurirati svaki aspekt bota!"
 		},

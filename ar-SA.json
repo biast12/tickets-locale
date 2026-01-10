@@ -342,6 +342,13 @@
 		"reopen": "اعادة فتح تذكرة تم إغلاقها سابقاً",
 		"notes": "يقوم بإنشاء موضوع للمناقشة الخاصة بين ممثلي الدعم"
 	},
+	"<@&%d> has been unblcommands": {
+		"blacklist": {
+			"remove_role": {
+				"successcklisted": "تم إزالة <@&%d> من القائمة السوداء"
+			}
+		}
+	},
 	"setup": {
 		"auto": {
 			"docs": "هل تريد إكتشاف المزيد ؟ [documentation] (https://docs.tickets.bot) ستجد بها جميع الشروحات التي تخص اعداد وتشغيل البوت"

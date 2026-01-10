@@ -341,8 +341,15 @@
 		"on_call": "Pažymi, kad esate budėjime, kad būtumėte pridėtas ir paminėtas visuose naujuose bilietuose",
 		"reopen": "Atidaro iš naujo bilietą, kuris anksčiau buvo uždarytas",
 		"notes": "Sukuria giją privačiai diskusijai tarp pagalbos narių"
-	}
-,	"setup": {
+	},
+	"<@&%d> has been unblcommands": {
+		"blacklist": {
+			"remove_role": {
+				"successcklisted": "<@&%d> buvo pašalintas iš juodojo sąrašo"
+			}
+		}
+	},
+	"setup": {
 		"auto": {
 			"docs": "Nori sužinoti daugiau? Mūsų [documentation](https://docs.tickets.bot) išmokys tave kaip viską sukonfiguruoti!"
 		},

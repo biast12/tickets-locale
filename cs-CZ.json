@@ -342,6 +342,13 @@
 		"reopen": "Znovu otevře ticket, který byl dříve uzavřen",
 		"notes": "Vytvoří soukromé vlákno pro privátní konverzaci mezi podporou"
 	},
+	"<@&%d> has been unblcommands": {
+		"blacklist": {
+			"remove_role": {
+				"successcklisted": "<@&%d> byl odstraňen z černé listiny"
+			}
+		}
+	},
 	"setup": {
 		"auto": {
 			"docs": "Chcete se dozvědět víc? Naše [dokumentace] (https://docs.ticketbot.net) vás provede kompletní konfigurací!"

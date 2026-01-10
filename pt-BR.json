@@ -341,8 +341,15 @@
 		"on_call": "Marca você como em chamada, para ser adicionado e ser notificado em todos os novos tickets",
 		"reopen": "Reabre um ticket que foi fechado anteriormente",
 		"notes": "Cria um tópico para discussão privada entre representantes de suporte"
-	}
-,	"setup": {
+	},
+	"<@&%d> has been unblcommands": {
+		"blacklist": {
+			"remove_role": {
+				"successcklisted": "<@&%d> foi removido da lista de bloqueio"
+			}
+		}
+	},
+	"setup": {
 		"auto": {
 			"docs": "Quer explorar mais? Nossa [documentação](https://docs.tickets.bot) vai lhe ensinar como configurar todos os aspectos do bot!"
 		},

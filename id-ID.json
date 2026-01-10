@@ -341,8 +341,15 @@
 		"on_call": "Menandai Anda sebagai sedang dipanggil, untuk ditambahkan dan di-ping di semua tiket baru",
 		"reopen": "Membuka kembali tiket yang sebelumnya ditutup",
 		"notes": "Membuat thread untuk diskusi pribadi antara pewakilan dukungan"
-	}
-,	"setup": {
+	},
+	"<@&%d> has been unblcommands": {
+		"blacklist": {
+			"remove_role": {
+				"successcklisted": "<@&%d> telah dibatalkan dari daftar hitam"
+			}
+		}
+	},
+	"setup": {
 		"auto": {
 			"docs": "Ingin menjelajahi lebih jauh? [Dokumentasi](https://docs.tickets.bot) kami akan mengajari Anda cara mengonfigurasi setiap aspek bot!"
 		},

@@ -341,8 +341,15 @@
 		"on_call": "Tüm yeni biletlere eklenmek ve bildirim almak üzere sizi görev başında olarak belirler",
 		"reopen": "Daha önceden kapatılmış bir bileti yeniden açar",
 		"notes": "Destek temsilcileri arasında özel tartışma için bir konu başlığı oluşturur"
-	}
-,	"setup": {
+	},
+	"<@&%d> has been unblcommands": {
+		"blacklist": {
+			"remove_role": {
+				"successcklisted": "<@&%d>, kara listeden kaldırıldı"
+			}
+		}
+	},
+	"setup": {
 		"auto": {
 			"docs": "Daha fazlasını keşfetmek ister misiniz? [Belgeler](https://docs.tickets.bot) size, botun her yönünü nasıl yapılandırılacağını öğretecek!"
 		},

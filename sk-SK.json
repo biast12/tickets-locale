@@ -341,8 +341,15 @@
 		"on_call": "Označí vás ako osobu v pohotovosti, ktorá bude pridaná a upozornená na všetky nové tickety",
 		"reopen": "Znovu otvorí ticket, ktorý bol predtým zatvorený",
 		"notes": "Vytvorí vlákno na súkromnú diskusiu medzi zástupcami podpory"
-	}
-,	"setup": {
+	},
+	"<@&%d> has been unblcommands": {
+		"blacklist": {
+			"remove_role": {
+				"successcklisted": "<@&%d> bol vymazaný z čiernej listiny"
+			}
+		}
+	},
+	"setup": {
 		"auto": {
 			"docs": "Chcete preskúmať viac? Naša [dokumentácia](https://docs.tickets.bot) vás naučí, ako nakonfigurovať každý aspekt bota!"
 		},
