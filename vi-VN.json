@@ -146,8 +146,6 @@
 	"generic.title.close_confirmation": "Xác nhận đóng",
 	"close.confirmation": "Hãy xác nhận rằng bạn muốn đóng phiếu hỗ trợ này",
 	"generic.title.close_request": "Yêu cầu đóng",
-	"commands.close_request.accept": "Chấp nhận và đóng",
-	"commands.close_request.deny": "Từ chối và giữ trạng thái mở",
 	"commands.premium.success": "Phiên bản premium đã được kích hoạt trong **%d** ngày",
 	"generic.title.claimed": "Đã nhận phiếu hỗ trợ",
 	"generic.title.unclaimed": "Đã hủy nhận phiếu hỗ trợ",

@@ -146,8 +146,6 @@
 	"generic.title.close_confirmation": "Close Confirmation",
 	"close.confirmation": "Please confirm that you want to close this ticket",
 	"generic.title.close_request": "Close Request",
-	"commands.close_request.accept": "Accept & Close",
-	"commands.close_request.deny": "Deny & Keep Open",
 	"commands.premium.success": "Premium has been activated for **%d** days",
 	"generic.title.claimed": "Claimed Ticket",
 	"generic.title.unclaimed": "Unclaimed Ticket",
@@ -301,6 +299,15 @@
 			"with_credits": {
 				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
 				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
+			}
+		},
+		"close_request": {
+			"success": "Close request was sent successfully",
+			"no_permission": "Only the user who opened the ticket can respond to the close request",
+			"denied": "<@%d> denied the close request.",
+			"buttons": {
+				"accept": "Accept & Close",
+				"deny": "Deny & Keep Open"
 			}
 		},
 		"viewstaff": {
