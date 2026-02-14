@@ -2,7 +2,7 @@
 	"commands.about": "Tickets to łatwy w obsłudze, wysoce konfigurowalny i pomocny bot.\\nSerwer wsparcia: https://discord.gg/ticketsbot\\nKomendy: Wpisz `/help`\\nAby rozpocząć wpisz `/setup`",
 	"commands.add.no_members": "Musisz oznaczyć użytkowników, aby dodać ich do zgłoszenia",
 	"commands.add.no_permission": "Nie masz uprawnień, aby dodać użytkowników do tego zgłoszenia",
-	"commands.add.no_everyone": "You cannot add the `@everyone` role to a ticket",
+	"commands.add.no_everyone": "Nie możesz dodać roli `@everyone` do zgłoszenia",
 	"commands.addadmin.no_members": "Musisz oznaczyć użytkownika lub rolę, aby przypisać mu uprawnienia administratora",
 	"commands.addadmin.owner": "Właściciel serwera jest już administratorem",
 	"commands.addsupport.no_members": "Musisz oznaczyć użytkownika lub rolę, aby przypisać im uprawnienia reprezentanta wsparcia",
@@ -195,6 +195,9 @@
 				"success": "<@&%d> został dodany do czarnej listy",
 				"limit": "Osiągnąłeś limit ról na czarnej liście (%d)"
 			},
+			"remove_role": {
+				"success": "<@&%d> has been unblacklisted"
+			},
 			"add": {
 				"limit": "Osiągnąłeś limit czarnej listy użytkowników (%d): rozważ użycie roli"
 			}
@@ -342,13 +345,6 @@
 		"on_call": "Oznacza cię jako aktywnego, do dodania i oznaczenia we wszystkich nowych zgłoszeniach",
 		"reopen": "Ponownie otwiera zgłoszenie, które zostało wcześniej zamknięte",
 		"notes": "Tworzy wątek do prywatnych dyskusji między przedstawicielami wsparcia"
-	},
-	"<@&%d> has been unblcommands": {
-		"blacklist": {
-			"remove_role": {
-				"successcklisted": "<@&%d> został usunięty z czarnej listy"
-			}
-		}
 	},
 	"setup": {
 		"auto": {
